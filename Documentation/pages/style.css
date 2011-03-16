@@ -1,0 +1,147 @@
+table, td, tr
+{
+	font-family: arial;
+	font-size: 12px;
+}
+.table_header
+{
+	background-color: #8e8f90; 
+	color: #fff; 
+	font-size: 12px; 
+	font-weight: bold;
+}
+
+.counter
+{
+	text-align:center;
+	font-size: 11px;
+	height: 100%;
+}
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin-left: 15px;
+}	
+
+a
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+		color: #000;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: #000;
+}
+
+.BorderRed
+{ border: 1px solid #8e8f90; }
+
+.BorderSilver
+{
+    border: 1px solid Silver;
+}
+
+h1
+{
+	font-size: 14pt; 
+	color: #ffa000; 
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 14px; 
+	font-family: arial;
+}
+
+.InputText
+{
+	font-size: 12px;
+	font-family: arial;
+	padding: 1px 2px 1px 2px;
+	border: 1px solid #B8B8B8;
+}
+
+.FormInput
+{
+	font-size: 12px;
+	font-family: arial;
+	padding: 0px;
+	border: 1px solid #B8B8B8;
+}
+
+.Button
+{
+	font-size: 12px;
+	font-family: arial;
+	background: #ccc;
+	border: 1px solid #aaa;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	color: #000;
+	padding: 0px 6px 0px 6px;
+}
+
+.Input
+{
+
+}
+
+.HeaderWhiteBig
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:12pt;
+	font-weight:bold;
+	color : #FFFFFF;
+}
+
+.HeaderWhite
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:10pt;
+	color : #FFFFFF;
+}
+
+.HeaderWhiteSmall
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:9pt;
+	color : #FFFFFF;
+}
+
+.note
+{
+	padding-left : 2px;
+	padding-top  : 2px;
+	border-width : 1px; 
+	border-color : #B0B0AF; 
+	border-style : solid;
+	background-color: #FCFBE9;
+	font-size: 8pt;
+}
+
+.saved
+{
+	padding: 3px;
+	width: 200px;
+	border-width : 1px; 
+	border-color : #B0B0AF; 
+	border-style : solid;
+	background-color: #FCFBE9;
+	font-size: 8pt;
+}
+
+.mandatory
+{
+	font-weight: bold;
+}

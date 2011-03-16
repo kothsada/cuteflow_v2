@@ -1,0 +1,567 @@
+﻿_jotl.language.encoding=utf8
+_jotl.language.langname=polski
+_jotl.language.langshrt=pl
+_jotl.language.dateform=d.m.Y
+_jotl.language.timeform=H:i
+AUTO_RELOAD=automatyczne przeładowanie@@@1155635863
+BTN_ADD=Dodaj@@@1152110090
+BTN_BACK=Wstecz@@@
+BTN_CANCEL=Anuluj@@@
+BTN_COMPLETE=Zakończ@@@1153923868
+BTN_LOGIN=Zaloguj@@@
+BTN_NEXT=Dalej@@@
+BTN_OK=OK@@@
+BTN_SAVE=Wy�lij@@@
+CFG_EMAIL_FORMAT=Format adresu E-Mail@@@
+CHOOSE_STATION=Wybierz stację@@@1153921316
+CIRCDETAIL_ATTACHMENT=Załączniki@@@
+CIRCDETAIL_COMMANDS=Akcje:@@@
+CIRCDETAIL_DAYS=Dzień(dni)@@@
+CIRCDETAIL_DESCRIPTION=Opis:@@@
+CIRCDETAIL_HISTORY=Historia obiegu@@@
+CIRCDETAIL_PROCESS_DURATION=Dni w obiegu:@@@
+CIRCDETAIL_RECEIVE=Otrzymany w dniu:@@@
+CIRCDETAIL_SENDDATE=Data:@@@
+CIRCDETAIL_SENDER=Nadawca:@@@
+CIRCDETAIL_SENDREV=Rewizja (Data):@@@
+CIRCDETAIL_STATE=Status:@@@
+CIRCDETAIL_STATE_DENIED=odrzucony@@@
+CIRCDETAIL_STATE_OK=gotowe@@@
+CIRCDETAIL_STATE_SKIPPED=pominięty@@@
+CIRCDETAIL_STATE_STOP=wstrzymany@@@
+CIRCDETAIL_STATE_SUBSTITUTE=Wyślij do zastępującego@@@
+CIRCDETAIL_STATE_WAITING=w obiegu@@@
+CIRCDETAIL_STATION=Etap:@@@
+CIRCDETAIL_TEMPLATE_TYPE=Typ:@@@
+CIRCDETAIL_TIP_CHANGE_STATION=Zmień etap@@@1153920932
+CIRCDETAIL_TIP_CHANGE_SUBSTITUTE=Wyślij obieg do zastępcy@@@1154094228
+CIRCDETAIL_TIP_RETRY=Prześlij ponownie na wybrany etap@@@
+CIRCDETAIL_TIP_SKIP=Pomiń etap@@@
+CIRCDETAIL_VALUES=Wprowadzone dane@@@
+CIRCORDER_DAYS=Dni@@@
+CIRCORDER_NAME=Nazwa@@@
+CIRCORDER_SENDER=Nadawca@@@
+CIRCORDER_START=Start@@@
+CIRCORDER_STATION=Etap@@@
+CIRCULATION_DONE_MESSSAGE_REJECT=Obieg odrzucony przez adresata@@@
+CIRCULATION_DONE_MESSSAGE_SUCCESS=Obieg zakończony pomyślnie@@@
+CIRCULATION_EDIT_ADDITIONAL_TEXT=Opis:@@@
+CIRCULATION_EDIT_ATTACHMENTS=Załączniki:@@@
+CIRCULATION_EDIT_FORM_HEADER=Nowy obieg@@@
+CIRCULATION_EDIT_MAILINGLIST=Ścieżka obiegu@@@
+CIRCULATION_EDIT_NAME=Nazwa obiegu@@@
+CIRCULATION_EDIT_SUCCESS_ARCHIVE=Automatycznie archiwizuj udany obieg@@@
+CIRCULATION_EDIT_SUCCESS_MAIL=Po zakończeniu obiegu wyślij wiadomość do nadawcy@@@
+CIRCULATION_MNGT_ADDCIRCULATION=Nowy obieg@@@
+CIRCULATION_MNGT_ASKDELETE=Czy naprawdę chcesz usunąć obieg?@@@
+CIRCULATION_MNGT_CIRC_BREAK=Obieg odrzucony@@@
+CIRCULATION_MNGT_CIRC_DONE=Obieg zakończony@@@
+CIRCULATION_MNGT_CIRC_STOP=Obieg przerwany@@@
+CIRCULATION_MNGT_CURRENT_SLOT=Aktualny etap@@@
+CIRCULATION_MNGT_FILTER=Filtr:@@@
+CIRCULATION_MNGT_NAME=Nazwa@@@
+CIRCULATION_MNGT_SENDING_DATE=Data wysłania@@@
+CIRCULATION_MNGT_SHOWRANGE=Pokaż obiegi _%From-_%To z _%Off@@@
+CIRCULATION_MNGT_WORK_IN_PROCESS=Dni w obiegu@@@
+CIRCULATION_NEW_ERROR_MAILINGLIST=Należy zaznaczyć listę mailową!@@@
+CIRCULATION_NEW_ERROR_NAME=Musisz wprowadzić nazwę dla obiegu!@@@
+CIRCULATION_RESTART_FORM_HEADER=Rozpocznij obieg od początku@@@
+CIRCULATION_TIP_ARCHIVE=Obieg do archiwum@@@
+CIRCULATION_TIP_DELETE=Usuń obieg@@@
+CIRCULATION_TIP_DETAIL=Pokaż szczegóy obiegu@@@
+CIRCULATION_TIP_RESTART=Rozpocznij obieg na nowo@@@
+CIRCULATION_TIP_STOP=Przerwij obieg@@@
+CIRCULATION_TIP_UNARCHIVE=Przenieś obieg z archiwum na \zwykłą\ listę@@@
+CIRCULATION_VIEW_PROCESS=Postęp@@@1152107510
+CONFIG_DATABASE_DATABASE=Baza danych@@@
+CONFIG_DATABASE_DATABASE_INFO=Nazwa bazy danych dla CuteFlow np. 'cuteflow'@@@
+CONFIG_DATABASE_HOST=Host@@@
+CONFIG_DATABASE_HOST_INFO=Nazwa hosta np. 'localhost'@@@
+CONFIG_DATABASE_PWD=Hasło@@@
+CONFIG_DATABASE_PWD_INFO=Hasło do bazy danych@@@
+CONFIG_DATABASE_USERID=ID użytkownika@@@
+CONFIG_DATABASE_USERID_INFO=Nazwa użytkownika bazy danych,  np. 'root'@@@
+CONFIG_DAYS=dni@@@
+CONFIG_DEFSORTCOL_NAME=nazwa@@@
+CONFIG_DELAY_INTERM=pomarańczowy po ... dniach@@@
+CONFIG_DELAY_LATE=czerwony po ... dniach@@@
+CONFIG_DELAY_NORMAL=żółty po ... dniach@@@
+CONFIG_GUI_CIRCULATIONORDER=Domyślny układ kolumn (dla obiegu)@@@
+CONFIG_GUI_DETAILSWIN=Otwierać szczegóły w osobnych oknach?@@@
+CONFIG_GUI_LANG=Domyślny język@@@
+CONFIG_GUI_POSINMAIL=Pokazywać etap w mailu?@@@
+CONFIG_GUI_REGEX=Filtrować, używając wyrażeń regularnych?@@@
+CONFIG_GUI_SORT=Domyślne sortowanie obiegu@@@
+CONFIG_HEADCATEGORY_DATABASE=Baza danych@@@
+CONFIG_HEADCATEGORY_DELAY=Kolor 'Dni w obiegu' zmienia się na ...@@@
+CONFIG_HEADCATEGORY_GUI=GUI@@@
+CONFIG_HEADCATEGORY_SERVER=Serwer@@@
+CONFIG_HEADLINE_CATEGORY=Kategoria@@@
+CONFIG_HEADLINE_CURSETTINGS=Bieżące ustawienia@@@
+CONFIG_HEADLINE_DEFSETTINGS=Domyślne ustawienia@@@
+CONFIG_HOURS=godzin@@@
+CONFIG_MYVALUES=Wartości:@@@
+CONFIG_NO=nie@@@
+CONFIG_ROWS_PER_PAGE=wieszy na stronę@@@1153921516
+CONFIG_SAVE=zapisz ustawienia@@@
+CONFIG_SAVED=!! ustawienia zapisane !!@@@
+CONFIG_SERVER_CFSERVER=Serwer Cuteflow@@@
+CONFIG_SERVER_CFSERVER_INFO=Adres serwera CuteFlow, np 'http://localhost/cuteflow'@@@
+CONFIG_SERVER_MAILADDTEXT=Standard dla 'Tekst opisu'@@@
+CONFIG_SERVER_SMTPPORT=SMTP: Port@@@
+CONFIG_SERVER_SMTPPORT_INFO=SMTP Numer portu, np. '25'@@@
+CONFIG_SERVER_SMTPPWD=SMTP: Hasło@@@
+CONFIG_SERVER_SMTPPWD_INFO=Hasło serwera SMTP, np. 'SmartMedia'@@@
+CONFIG_SERVER_SMTPSEVER=SMTP: Serwer@@@
+CONFIG_SERVER_SMTPSEVER_INFO=Adres serwera SMTP, np. '91.199.22.124'@@@
+CONFIG_SERVER_SMTPUSERID=Użytkownik SMTP: @@@
+CONFIG_SERVER_SMTPUSERID_INFO=Nazwa użytkownika serwera SMTP, np. 'SmartMedia'@@@
+CONFIG_SERVER_SUBSDAYS=Po tym czasie obieg zostanie przesłany do zastępcy@@@
+CONFIG_SERVER_SYSREPLYADDR=System reply address@@@
+CONFIG_SERVER_USEAUTH=Uwierzytelnianie SMTP@@@
+CONFIG_SERVER_USEAUTH_INFO=Czy używać uwierzytelniania w protokole SMTP?@@@
+CONFIG_SHOW_ADV_SETTINGS=Pokaż zaawansowane ustawienia@@@
+CONFIG_SORTDIRECTION_ASC=Rosnąco@@@1152107510
+CONFIG_SORTDIRECTION_DESC=Malejąco@@@1152107510
+CONFIG_YES=tak@@@
+DEFAULT_CHARSET=UTF-8@@@1152110304
+EDITCIRC_ADA=dostosowany@@@1153924158
+EDITCIRC_DEF=domyślny@@@1153924144
+EDIT_CIRCULATION_EDIT_VALUES_HEAD=Edytuj pola@@@1152107510
+EDIT_CIRCULATION_VALUES_OPTION=Edytuj pola przed wysłaniem@@@1152107510
+EDIT_NEW_ERROR_EMAIL=Niewłaściwy adres e-mail@@@
+EDIT_NEW_ERROR_FIRSTNAME=Muisz wprowadzić Imię@@@
+EDIT_NEW_ERROR_LASTNAME=Musisz wprowadzić Nazwisko@@@
+EDIT_NEW_ERROR_PASSWORD1=Musisz wprowadzić hasło@@@
+EDIT_NEW_ERROR_PASSWORD2=Musisz ponownie wprowadzić hasło@@@
+EDIT_NEW_ERROR_PASSWORD3=Hasła się nie zgadzają@@@
+
+
+EMAIL_BROWSERVIEW=Browserview@@@
+EMAIL_FORMAT_TEXT=Tekst@@@1156409220
+EMAIL_VALUES_NONE=none@@@1156409231
+EMAIL_VALUES_VALUES=only values@@@1156409243
+
+
+
+
+FIELD_DATE_FORMAT=Format@@@1152107510
+
+
+
+FIELD_EDIT_FILE_INFO=Możesz wybrać i wysłać plik podczas obiegu.@@@1152171359
+FIELD_EDIT_HEADLINE=Pole wprowadzania@@@
+FIELD_EDIT_NAME=Nazwa pola:@@@
+FIELD_EDIT_READONLY=Tylko do odczytu:@@@
+FIELD_EDIT_REGEX=Wyrażenie regularne@@@1152168835
+FIELD_EDIT_REGEX_INFO=opcjonalne@@@1152168970
+FIELD_EDIT_REPLACEFILE=Zastąp istniejący plik:@@@
+FIELD_EDIT_STDVALUE=Wartość standardowa:@@@
+FIELD_EDIT_TYPE=Typ pola:@@@
+FIELD_MNGT_ADDFIELD=Nowe pole@@@
+FIELD_MNGT_ASKDELETE=Czy naprawdę chcesz usunąć to pole?@@@1152110109
+FIELD_MNGT_SHOWRANGE=Pokaż pole _%From-_%To z _%Off@@@
+FIELD_NEW_ERROR_NAME=Musisz wprowadzić nazwę dla tego pola!@@@
+FIELD_NUMTYPE_NEGATIVE=Tylko liczby ujemne@@@1152107510
+FIELD_NUMTYPE_NOREGEX=Bez ograniczenia@@@1152107510
+FIELD_NUMTYPE_POSITIVE=Tylko liczby dodatnie@@@1152107510
+FIELD_TBL_HDR_NAME=Nazwa@@@1152107510
+FIELD_TBL_HDR_READONLY=Tylko do odczytu@@@1152107510
+FIELD_TBL_HDR_STDVALUE=Wartość standardowa@@@1152107510
+FIELD_TBL_HDR_TYPE=Typ pola@@@1152107510
+FIELD_TIP_DELETE=Usuń pole@@@1152107510
+FIELD_TIP_DETAILS=Edytuj szczegóły pola@@@1152107510
+FIELD_TYPE_BOOLEAN=Prawda/Fałsz@@@1152107510
+FIELD_TYPE_CHECKBOXGROUP=Checkboxgroup@@@1152107510
+FIELD_TYPE_COMBOBOX=Combobox@@@1152107510
+FIELD_TYPE_DATE=Data@@@1152107510
+FIELD_TYPE_DOUBLE=Liczba@@@1152107510
+FIELD_TYPE_FILE=Plik@@@1152107510
+FIELD_TYPE_LARGETEXT=Pole tekstowe@@@1152107510
+FIELD_TYPE_RADIOGROUP=Radiogroup@@@1152107510
+FIELD_TYPE_TEXT=Tekst@@@1152107510
+FILTER_CHOOSE_FILTER=Wybierz Filter@@@1156331904
+FILTER_DELETE_FILTER=Usuń Filter@@@1156407584
+FILTER_FIELD=Wybierz Pole@@@1153923273
+FILTER_FILTEROPTIONS=Zaawansowane opcje filtru@@@1153921732
+
+
+
+FILTER_FREE=Free definably@@@1153922100
+
+
+
+FILTER_FROM=od@@@1153923342
+
+
+FILTER_LABEL=Label@@@1156333274
+FILTER_LABEL_NO_LABEL=Please label the Filter@@@1156334548
+
+
+FILTER_LOADED=Filter wczytany poprawnie!@@@1156344040
+FILTER_LOAD_FILTER=Wczytaj filtr@@@1156331891
+FILTER_MAILINGLIST=Wybierz listę mailingową@@@1153923257
+FILTER_OPERATOR=Operator@@@1153923288
+FILTER_SAVE_DONE=Filter zapisany.@@@1156336520
+FILTER_SAVE_FILTER=Zapisz Filter@@@1156331880
+FILTER_SAVE_HEADER=Zapisz aktualny Filter@@@1156333260
+FILTER_SELECT_NO_SELECT=Proszę wybrać Filter@@@1156334569
+FILTER_STATION=Wybierz Stację@@@1153923238
+FILTER_TEMPLATE=Wybierz Szablon@@@1156255049
+FILTER_TO=do@@@1153923368
+GROUP_ADMINISTRATION=Administracja@@@
+GROUP_CIRCULATION=Obiegi@@@
+GROUP_LOGOUT=Wyloguj@@@
+GROUP_MANAGEMENT=Zarządzanie@@@1153917416
+
+
+INFO_IFRAME_FILES=Please use the Browserview to upload a file.@@@1155647093
+
+
+
+INSTALL_ACCESS=checking access to directory@@@1155624478
+INSTALL_BUTT_BAC=Wstecz@@@
+INSTALL_BUTT_CON=Dalej@@@
+INSTALL_BUTT_INS=Instaluj@@@
+INSTALL_BUTT_SCF=Uruchom aplikację@@@
+INSTALL_CHECKING=sprawdzanie@@@1155624455
+INSTALL_DB_CONNECT=Łączenie z serwerem@@@1155628263
+INSTALL_DB_CONNECT_DB=Łączenie z Bazą Danych@@@1155629902
+INSTALL_DB_DB=Instalacja Bazy Danych@@@1155628288
+INSTALL_DB_READ=Odczytywanie domyślnych ustawień Bazy Danych@@@1155628193
+INSTALL_DB_SMTP=Zapisywanie ustawień SMTP@@@1155629932
+INSTALL_DB_SUCCESS=Baza Danych pomyślnie zainstalowana@@@1155628390
+INSTALL_DB_TABLES=Instalowanie tabel@@@1155628319
+INSTALL_DB_TYPE=Typ Bazy Danych@@@
+INSTALL_DB_TYPE_INFO=Typ twojej Bazy Danych@@@
+INSTALL_DB_WRITE=Zapisywanie domyślnych ustawień Bazy Danych@@@1155628228
+INSTALL_DB_WRITECONFIG=Zapisywanie domyślnej konfiguracji@@@1155628353
+INSTALL_END1=Instalacja zakończyła się powodzeniem!@@@
+INSTALL_ENSURE_ACCESS=Upewnij się, że masz prawa dostępu do katalogu@@@1155624548
+INSTALL_ERROR_CFSERVER=Proszę wpisać adres serwera CuteFlow@@@1155629970
+
+
+
+INSTALL_ERROR_CONNECT=Nawiązanie połączenia niemożliwe@@@1155628464
+INSTALL_ERROR_INSTDB=Nie można zainstalować bazy danych@@1155628436
+
+
+
+INSTALL_HEAD=Nowa Instalacja@@@
+INSTALL_HEAD1=Witamy w Cuteflow - Szybka instalacja!@@@
+INSTALL_HEAD2=Testowanie Systemu@@@
+INSTALL_HEAD3_1=Ustawienia - Baza Danych@@@
+INSTALL_HEAD3_2=Ustawienia - Testowanie/ Instalacja Bazy Danych@@@
+INSTALL_HEAD3_3=Ustawienia - Serwer@@@
+INSTALL_HEAD3_4=Ustawienia - Zapisywanie ustawień Serwera@@@
+INSTALL_HEAD4=Zainstaluj dane testowe@@@
+INSTALL_HEAD5=Uruchom aplikację CuteFlow!@@@
+INSTALL_NO_MYSQL=Nie znaleziono rozszerzenia dla MYSQL@@@1155624572
+INSTALL_REQUIRED=wymagane@@@1155624523
+INSTALL_SMTP_SUC=pomyślnie zapisano ustawienia SMTP@@@1155630016
+INSTALL_START1=CuteFlow jest aplikacją opartą na technologi web, wspomagającą obieg dokumentów. Użytkownik ma możliwość definiowania 'dokumentów' które są przesyłane krok po kroku na każdy etap/do każdego użytkownika na liście. Jest to sposób na zautomatyzowany, wewnętrzny obieg dokumentów. Dokumenty mogą składać się z pól, które może wypełniać odbiorca, więc efektem zakończonej cyrkulacji będzie wypełniony dokument. Możliwe jest również dołączanie załączników do dokumentów.@@@
+INSTALL_STEP=krok@@@
+INSTALL_STEP1=start@@@
+INSTALL_STEP2=sprawdzanie systemu@@@
+INSTALL_STEP3=ustawienia@@@
+INSTALL_STEP4=dane testowe@@@
+INSTALL_STEP5=zakończony@@@
+INSTALL_SUCCESS_SYS=Test Systemu zakończony pomyślnie@@@1155624502
+INSTALL_TD=instalacja danych testowych@@@1155630665
+INSTALL_TD_HEAD=Czy chcesz zainstalować dane testowe?@@@
+INSTALL_TD_INSTTD=Zainstalować dane testowe?@@@
+INSTALL_TD_INSTTD_INFO=Instaluje przykładowe dane@@@
+INSTALL_TD_MAIL=E-Mail@@@
+INSTALL_TD_MAIL_INFO=Wymagany jest twój adres email do danych testowych.@@@
+INSTALL_TD_SUC=Dane testowe zainstalowane poprawnie@@@1155630705
+INSTALL_TRY_AGAIN=Sprawdź ustawienia i spróbuj ponownie@@@1155624593
+JS_PRESET_ERROR=Proszę wprowadzić poprawną wartość.@@@1153918120
+LOGIN_ERROR_PASSWORD=Proszę wprowadzić poprawne hasło!@@@
+LOGIN_ERROR_USERID=Proszę wprowadzić poprawne id użytkownika!@@@
+LOGIN_FAILURE=Nieudana próba zalogowania. Sprawdź nazwę użytkownika i hasło.@@@
+LOGIN_HEADLINE=Logowanie do systemu obiegu dokumentów@@@
+LOGIN_LANGUAGE=Język@@@
+LOGIN_LOGIN=Login@@@
+LOGIN_PWD=Hasło@@@
+LOGIN_USERID=Użytkownik@@@
+MAILINGLIST_EDIT_ATTACHED_USER=Przypisany użytkownik:@@@
+MAILINGLIST_EDIT_AVAILABLE_USER=Dostępny użytkownik:@@@
+MAILINGLIST_EDIT_NAME=Nazwa@@@
+MAILINGLIST_EDIT_POS=Poz.@@@
+MAILINGLIST_SELECT_FORM_HEADER=Wybierz ścieżkę obiegu@@@
+MAILINGLIST_SELECT_NO_SELECT=Nie wybrano ścieżki obiegu!@@@
+MAILINGLIST_TIP_DELETE=Usuń ścieżkę obiegu@@@
+MAILINGLIST_TIP_DETAILS=Edytuj ścieżkę obiegu@@@
+MAILLIST_EDIT_ERROR=Zaznaczona ścieżka obiegu jest w użyciu!<br>Zmiany w ścieżce obiegu wpłyną na obiegi, które użwają tej ścieżki.<br>Istieje ryzyko, że proces obiegu nie przebiegnie pomyślnie!@@@
+MAILLIST_EDIT_FORM_HEADER=Szczegóły ścieżki obiegu@@@
+MAILLIST_EDIT_FORM_HEADER_STEP2=Przypisanie adresatów do komórek@@@
+MAILLIST_EDIT_FORM_SLOT=Komórka@@@
+MAILLIST_EDIT_FORM_TEMPLATE=Szablon dokumentu:@@@
+MAILLIST_MNGT_ADDMAILLIST=Nowa ścieżka obiegu@@@
+MAILLIST_MNGT_ASKDELETE=Czy naprawdę chcesz usunąć tę ścieżkę?@@@
+MAILLIST_MNGT_NAME=Nazwa@@@
+MAILLIST_MNGT_SHOWRANGE=Pokaż ścieżkę obiegu _%From-_%To z _%Off@@@
+MAILLIST_NEW_ERROR_NAME=Musisz wprowadzić nazwę dla ścieżki obiegu!@@@
+MAILLIST_NEW_ERROR_TEMPLATE=Musisz wybrać szablon dokumentu!@@@
+MAIL_ACK=Twoje dane zostały pomyślnie przesłane. Dokument w obiegu został wysłany do następnego użytkownika na ścieżce.<br><br>Zamknij e-mail@@@
+MAIL_ADDITION_INFORMATIONS=Wpisz dane:@@@
+MAIL_CLOSE_WINDOW=Zamknij okno@@@
+MAIL_CONTENT_ATTETION=Uwaga!@@@
+MAIL_CONTENT_ATTETION_TEXT=Obieg był już edytowany, dane zostały wysłane. Zawartość emaila nie może zostać zmieniona. Poniżej przedstawiono status obiegu.@@@
+
+
+
+MAIL_CONTENT_CIRCULATION_CLOSED=Wybrany obieg został skasowany. Dane nie mogą zostać zaprezentowane ponownie.@@@
+
+
+
+MAIL_CONTENT_PRINTVIEW=Podgląd wydruku@@@
+MAIL_CONTENT_RADIO_ACK=Zatwierdzam zawartość tego obiegu.@@@
+MAIL_CONTENT_RADIO_NACK=Odrzucam zawartość tego obiegu.@@@
+MAIL_CONTENT_SENT_ALREADY=Edytowałeś już ten obieg i wysłałeś dane.@@@
+MAIL_CONTENT_STOPPED_TEXT=Obieg wstrzymany przez innego użytkownika. Nie możesz już zmieniać tych danych.@@@
+MAIL_ENDACTION_DONE_REJECTED=- odrzucone@@@
+MAIL_ENDACTION_DONE_SUCCESS=- zakończone pomyślnie@@@
+MAIL_HEADER_PRE=Obieg: @@@
+
+
+MAIL_LINK_DESCRIPTION=Użyj poniższego łącza aby edytować/wysłać zawartość tego obiegu w przeglądarce internetowej:<br />@@@
+
+
+MAIL_NACK=Twoja odpowiedź została zapisana.<br /><br />Zamknij e-mail.@@@
+MAIL_VALUES_HEADER=Dodatkowe informacje@@@
+MENU_ARCHIVE=Archiwum obiegów@@@
+MENU_CIRCULATION=Obiegi@@@
+MENU_CONFIG=Ustawienia@@@
+MENU_FIELDS=Pola@@@
+MENU_LOGOUT=Wyloguj@@@
+MENU_MAILINGLIST=Ścieżka obiegu@@@
+MENU_TEMPLATE=Szablony dokumentów@@@
+MENU_USERMNG=Użytkownicy@@@
+PRINTBAR_CLOSE=Zamknij@@@
+PRINTBAR_PRINT=Drukuj@@@
+
+
+
+SELECT_PLACEHOLDER=Wybierz symbol zastępczy@@@1155564503
+
+
+
+SHOW_CIRCULATION_MAILLIST=Ścieżka obiegu@@@1156240681
+SHOW_CIRCULATION_TEMPLATE=Szablon@@@1156240703
+SHOW_CIRCULATION_WHOLETIME=Całkowity czas@@@1156240723
+SLOT_EDIT_HEADLINE=Szczegóły komórki@@@
+SLOT_EDIT_NAME=Nazwa komórki:@@@
+SLOT_NEW_ERROR_NAME=Musisz wprowadzić nazwę dla komórki!@@@
+TABLE_OPTIONS=Opcje@@@1153997396
+TEMPLATE_EDIT1_HEADER=Szczegóły szablonu (Krok 1/3)@@@
+TEMPLATE_EDIT1_NAME=Nazwa nowego szablonu:@@@
+TEMPLATE_EDIT2_ASKDELETE=Czy naprawdę chcesz usunąć tę komórkę?@@@1152110124
+TEMPLATE_EDIT2_HEADER=Komórki szablonu (Krok 2/3):@@@
+TEMPLATE_EDIT2_HEADER_NAME=Nazwa@@@
+TEMPLATE_EDIT2_NEWSLOT=Nowa komórka@@@
+TEMPLATE_EDIT2_TIP_DELETE=Usuń komórkę@@@
+TEMPLATE_EDIT2_TIP_DETAIL=Edytuj komórkę@@@
+TEMPLATE_EDIT2_TIP_DOWN=Przenieś komórkę w dół@@@
+TEMPLATE_EDIT2_TIP_UP=Przenieś komórkę w górę@@@
+TEMPLATE_EDIT3_ASSIGNED_FIELDS=Przypisane pola:@@@
+TEMPLATE_EDIT3_AVAILABLE_FIELDS=Dostępne pola:@@@
+TEMPLATE_EDIT3_HEADER=Przypisanie pól do komórek (Krok 3/3)@@@
+TEMPLATE_EDIT3_NAME=Nazwa@@@
+TEMPLATE_EDIT3_POS=Poz.@@@
+TEMPLATE_MNGT_ADDTEMPLATE=Szablon nowego dokumentu@@@
+TEMPLATE_MNGT_ASKDELETE=Czy naprawdę chcesz usunąć ten szablon?@@@1152110140
+TEMPLATE_MNGT_SHOWRANGE=Pokaż szablon _%From-_%To z _%Off@@@
+TEMPLATE_NEW_ERROR_NAME=Musisz wprowadzić nazwę dla tego szablonu!@@@
+TEMPLATE_SELECT_FORM_HEADER=Wybierz szablon dokumentu@@@
+TEMPLATE_SELECT_NO_SELECT=Nie wybrano szablonu dokumentu!@@@
+TEMPLATE_TIP_DELETE=Usuń szablon@@@
+TEMPLATE_TIP_DETAILS=Edytuj szablon@@@
+TITLE_1=CuteFlow@@@
+TITLE_2=System obiegu dokumentów@@@
+UPDATE_INFO=Aby rozpocząć AKTUALIZACJĘ naciśnij przycisk aktualizacja. Aktualizacja działa tylko z Cuteflow w wersji 2.0.x. Cuteflow zostanie zaktualizowany automatycznie po naciśnięciu przycisku aktualizacja.@@@1155632008
+UPDATE_INFO2=Ta aktualizacja jest poprawna tylko dla wersji 2.0.x@@@1155632432
+USER_ACCESSLEVEL_ADMIN=Administracja@@@
+USER_ACCESSLEVEL_READONLY=Tylko do odczytu@@@
+USER_ACCESSLEVEL_RECEIVER=Adresat@@@
+USER_ACCESSLEVEL_SENDER=Nadawca@@@
+USER_EDIT_ACCESSLEVEL=Poziom dostępu:@@@
+USER_EDIT_ACTION=Zapisz@@@
+USER_EDIT_EMAIL=E-Mail:@@@
+USER_EDIT_FIRSTNAME=Imię:@@@
+USER_EDIT_FORM_HEADER=Dane użytkownika@@@
+USER_EDIT_LASTNAME=Nazwisko:@@@
+USER_EDIT_PWD=Hasło:@@@
+USER_EDIT_PWDCHECK=Hasło <br/>(powtórz):@@@
+USER_EDIT_SUBSTITUDE=Zastępujący:@@@
+USER_EDIT_USERID=ID użytkownika:@@@
+USER_MNGT_ADDUSER=Nowy użytkownik@@@
+USER_MNGT_ADMINACCESS=Administrator@@@
+
+
+USER_MNGT_ASKDELETE=Czy chcesz usunąć tego użytkownika?@@@1152107510
+USER_MNGT_ASKDELETE_PART2=Ostrzeżenie: Któryś z istniejących obiegów może zostać wstrzymany,@@@1152107510
+USER_MNGT_ASKDELETE_PART3=jeśli ten użytkownik jest jego uczestnikiem.@@@1152107510
+
+
+USER_MNGT_EMAIL=E-Mail@@@
+USER_MNGT_FIRSTNAME=Imię@@@
+USER_MNGT_LASTNAME=Nazwisko@@@
+USER_MNGT_SHOWRANGE=Pokaż użytkownika _%From-_%To@@@
+USER_MNGT_SORTBY=Sortuj według:@@@
+USER_MNGT_SORTBY_NAME=Nazwa@@@
+USER_MNGT_SUBSTITUDE=Zastępujący@@@
+USER_SELECT_FORM_HEADER=Wybierz użytkownika@@@
+USER_SELECT_NO_SELECT=Nie wybrano użytkownika!@@@
+USER_TIP_DELETE=Usuń użytkownika@@@
+USER_TIP_DETAIL=Edytuj dane użytkownika@@@
+
+
+WARNING_FIELD_ALREADY_ADDED=Pole zostało już przypisane do tego etapu@@@1152107510
+
+
+//--- V.2.6.2
+DEFAULT=Domyślny@@@0
+DEFAULT_TIP=Użyj jako domyslny@@@0
+SELECT_DATE=Wybierz datę@@@0
+INSERT_PLACEHOLDER=Insert Placeholder@@@0
+START_FILTER=Uruchom filtr@@@0
+LOADING_DATA=ładowanie danych...@@@0
+FILTER_SENDER=Wybierz nadawcę@@@0
+
+//--- V.2.7.0
+FILTER_RESET=Resetuj filtr@@@0
+SELF_DELEGATE_USER=Nadawca obiegu@@@0
+FIELD_EDIT_VALIDVALUES=Zostaną zapisane tylko pola z poprawnymi wartościami@@@0
+MENU_NOTIFICATION=Powiadomienia@@@0
+NOTIFICATION_HEADER=Grupowe powiadomienia@@@0
+BTN_SEND=Wyslij@@@0
+BTN_RESET=Wyczyść@@@0
+NOTIFICATION_SUBJECT=Temat@@@0
+NOTIFICATION_DEFAULT_SUBJECT=Ważna wiadomość@@@0
+NOTIFICATION_CONTENT=Wiadomość@@@0
+NOTIFICATION_RECIEVER=Odbiorca@@@0
+NOTIFICATION_RECIEVER_ALL=Wszyscy@@@0
+NOTIFICATION_RECIEVER_SENDER=Tylko nadawca@@@0
+NOTIFICATION_SUCCESS=Wiadomość została wysłana.@@@0
+NOTIFICATION_ERROR=Nie można było wysłać wiadomości.@@@0
+MAILINGLIST_TIP_DEFAULT=Standard@@@0
+CONFIG_UNENCRYPTED_REQUESTS=Zezwolić na nieszyfrowane żądania?@@@0
+
+//--- V.2.8.0
+CONFIG_LDAP_AUTHENTICATION_METHOD=Metoda uwierzytelniania@@@1152107510
+CONFIG_LDAP_AUTH_LDAP=LDAP@@@1152107510
+CONFIG_LDAP_AUTH_ACTIVE_DIRECTORY=LDAP (Active Directory)@@@1152107510
+CONFIG_LDAP_AUTH_HYBRID=Hybrydowe (LDAP lub DB)@@@1152107510
+CONFIG_LDAP_AUTH_HYBRID_AD=Hybrydowe (Active Directory lub DB)@@@0
+CONFIG_LDAP_HOST=HOST LDAP@@@1152107510
+CONFIG_LDAP_DOMAIN=Doemena LDAP@@@1152107510
+CONFIG_LDAP_BIND_UN_CONTEXT=Przypisana nazwa użytkownika i kontekst LDAP @@@1152107510
+CONFIG_LDAP_PASSWORD=Hasło LDAP@@@1152107510
+CONFIG_LDAP_ROOT_CONTEXT=LDAP Root Context@@@1152107510
+CONFIG_LDAP_USER_SEARCH_ATTRIBUTE=Parametry wyszukiwania użytkowników w LDAP@@@1152107510
+CONFIG_LDAP_FIRST_NAME_ATTRIBUTE=LDAP: Imię@@@1152107510
+CONFIG_LDAP_LAST_NAME_ATTRIBUTE=LDAP: NAzwisko@@@1152107510
+CONFIG_LDAP_USERNAME_ATTRIBUTE=LDAP: nazwa użytkownika@@@1152107510
+CONFIG_LDAP_EMAIL_ATTRIBUTE=LDAP: E-Mail LDAP@@@1152107510
+CONFIG_LDAP_OFFICE=LDAP: Biuro@@@1152107510
+CONFIG_LDAP_PHONE_ATTRIBUTE=LDAP: Numer telefonu@@@1152107510
+CONFIG_LDAP_SHOW_ADVANCED_SETTINGS=Pokaż zaawansowane ustawienia@@@1152107510
+CONFIG_LDAP_CONTEXT_ATTRIBUTE=LDAP: Kontekst@@@1152107510
+CONFIG_LDAP_NEW_USER_DEFAULT_LEVEL=Domyślny poziom dostępu dla nowego użytkownika@@@1152107510
+CONFIG_HEADCATEGORY_AUTHENTICATION=Uwierzytelnianie@@@1152107510
+MENU_OWN_CIRCULATIONS=Do zrobienia@@@0
+CIRCULATION_TIP_EDIT=Edytuj obieg@@@0
+USER_ONLINE_STATE=Zalogowany@@@0
+NOTIFICATION_RECIEVER_ONLINE=Tylko zalogowani użytkownicy@@@0
+USER_EDIT_FORM_HEADER_DETAILS=Szczegółowe dane użytkownika@@@0
+USER_EDIT_FORM_HEADER_RIGHTS=Uprawnienia użytkownika@@@0
+USER_EDIT_STREET=Ulica@@@0
+USER_EDIT_COUNTRY=Państwo@@@0
+USER_EDIT_ZIPCODE=Kod pocztowy@@@0
+USER_EDIT_CITY=Miasto@@@0
+USER_EDIT_PHONE_MAIN1=Telefon 1@@@0
+USER_EDIT_PHONE_MAIN2=Telefon 2@@@0
+USER_EDIT_PHONE_MOBILE=Telefon komórkowy@@@0
+USER_EDIT_FAX=Fax@@@0
+USER_EDIT_ORGANISATION=Organizacja@@@0
+USER_EDIT_DEPARTMENT=Oddział@@@0
+USER_EDIT_COST_CENTER=Centrum kosztów@@@0
+CONFIG_USERDETAILS_USERDEFINED=(Szczegóły użytkownika) zdefiniowany tytuł@@@0
+SUBSTITUTE_MORE_THAN_ONE=(wiele zmian)@@@0
+CONFIG_MINUTES=minut@@@0
+SUBSTITUTE_TIME=Czas zmiany@@@0
+USE_INDIVIDUAL_SUBSTITUTE_TIME=Własny czas zmiany@@@0
+OTHER_OPTIONS=Różne@@@0
+CIRCULATION_RESTART_USE_LATEST_VALUES=Używaj parametrów najnowszej wersji@@@0
+CIRCULATION_RESTART_SELECT_START=Zaczynaj na etapie@@@0
+CIRCULATION_RESTART_LAST_STATION=Zaczynaj na najnowszym etapie@@@0
+
+//--- V.2.9.0
+CHOOSE=Wybierz@@@0
+ADD_ADDITIONAL_TEXT=Dodaj dodatkowy tekst@@@0
+EDIT_ADDITIONAL_TEXT=Edytuj dodatkowy tekst@@@0
+ADDITIONAL_TEXT_CONTENT=Zawartość@@@0
+PLACEHOLDERS=Symbol zastępczy@@@0
+
+//--- V.2.9.1
+CIRCULATION_EDIT_SUCCESS_DELETE=Automatycznie usuwaj udane cyrkulacje@@@0
+
+//--- V.2.9.2
+USER_EDIT_GENERAL_EMAIL_FORMAT=Indywidualne ustawienia@@@0
+
+//--- V.2.9.3
+CIRCULATION_TIP_PRINT=Drukuj@@@0
+INSTALL_ADMINN_PASSWORD_TITLE=Hasło administratora systemu(admin)@@@0
+INSTALL_ADMINN_PASSWORD=Hasło:@@@0
+INSTALL_ADMINN_PASSWORD_RETYPE=Powtórz Hasło:@@@0
+INSTALL_TYPE_PASSWD_ERR=Wpisz hasło@@@0
+INSTALL_RETYPE_PASSWD_ERR=Wpisz powtórzone hasło@@@0
+INSTALL_PASSWD_DIFF_ERR=Podane hasła różnią się@@@0
+$INSTALL_ADMIN_ERR=Błąd dodawania użytkownika 'admin'@@@0
+
+//--- V.2.10.2
+CONFIG_DATE_FORMAT=Format daty@@@0
+CONFIG_DATE_FORMAT_HINT=miesiąc-dzień-rok@@@0
+CIRCULATION_EDIT_ANONYMIZE=Nie pokazuj nazw odbiorców w obiegu@@@0
+FEED_HEADLINE=Otwórz obiegi  @@@0
+
+//--- V.2.10.3
+MENU_STATISTIC=Statystyki@@@0
+STAT_MEAN_DURATION=Średni czas przetwarzania@@@0
+STAT_MEAN_PROCESSING_TIME=Średni czas trwania obiegu@@@0
+STAT_FILTER_TIME=Przedział czasu@@@0
+STAT_HEADER_USER=Użytkownik@@@0
+STAT_HEADLINE_USER=na Użytkownika@@@0
+STAT_HEADER_WORKFLOW=Obieg@@@0
+
+//--- V.2.11.0
+CONFIG_HEADCATEGORY_WORKFLOW=Obieg@@@0
+CFG_MAIL_SEND_TYPE=Sposób wysyłania wiadomości E-Mail@@@0
+MAIL_SEND_TYPE_SMTP=SMTP@@@
+MAIL_SEND_TYPE_PHP=Funkcja PHP Mail@@@
+MAIL_SEND_TYPE_MTA=Sendmail@@@
+MAIL_SEND_TYPE_MTA_PATH=Śieżka Sendmail@@@
+MAIL_SEND_TYPE_SMTP_ENCRYPTION=SMTP:Szyfrowanie@@@0
+MAIL_SEND_TYPE_SMTP_ENCRYPTION_NONE=Żadna (Domyślnie)@@@0
+MAIL_SEND_TYPE_SMTP_ENCRYPTION_SSL=SSL@@@0
+MAIL_SEND_TYPE_SMTP_ENCRYPTION_TLS=TLS@@@0
+CFG_SLOT_VISIBILITY=Widoczność etapów@@@
+SLOT_VISIBILITY_SINGLE=Tylko etapy bieżącego użytkownika@@@
+SLOT_VISIBILITY_ALL=Wszystkie etapy (sortowane tak, jak zdefiniowano w szablonie)@@@
+SLOT_VISIBILITY_ALL_TOP=Wszystkei etapy (pierwsze bieżącego użytkownika)@@@
+MAIL_SEND_TYPE_MTA_PATH=Ścieżka bezwzględna sendmail (np. /usr/bin/sendmail -bs)@@@0
+FIELD_EDIT_COLOR=Kolor pól(Tło, Wartość HEX)@@@0
+INSTALL_START_ADMIN=W następnym kroku będziesz mógł zalogować się do CuteFlow z użyciem standardowych wartości nazwy użytkownika i hasła<br/><br/>Użytkownik: admin<br/>Hasło: admin<br/><br/>Pamiętaj aby dla bezpieczeństwa jak najszybciej zmienić te parametry.@@@0
+SLOT_EDIT_SEND_TYPE=Dla wszystkich etapów jednocześnie@@@0
+CIRCULATION_EDIT_NOTIFY=Powiadomienia do wysłającego@@@0
+CIRCULATION_EDIT_NOTIFY_TYPE_END=Na koniec obiegu@@@0
+CIRCULATION_EDIT_NOTIFY_TYPE_SLOTEND=Na koniec etapu@@@0
+CIRCULATION_SLOTEND_MESSSAGE_SUCCESS=Następujący etap został pomyślnie ukończony@@@0
+MAIL_ENDACTION_DONE_ENDSLOT= - Etap zakończony pomyślnie@@@0
+CFG_SEND_REMINDER_MAIL=Wysyłaj przypomnienia EMAIL dla wszystkich aktywnych obiegów<br/>(Musisz odpowidnio skonfigurować Cronjob, sprawdź w instrukcji obsługi)@@@
+CFG_SEND_WORKFLOW_MAIL=Wysyłaj EMAILe do odbiorców obiegu@@@0
+REMINDER_MAIL_SUBJECT=Przypomnienie: Obieg w CuteFlow@@@
+REMINDER_MAIL_HEADER1=Istnieją atywne obiegi, które wymagają Twojej uwagi.@@@0
+REMINDER_MAIL_HEADER2=Kliknij w poniższy link aby zobaczyć wszystkie aktywne obiegi lub kliknij w link do obiegum by od razu przejść do jego edycji.@@@
+ALL_OPEN_WORKFLOWS=Wszystkie aktywne obiegi@@@0

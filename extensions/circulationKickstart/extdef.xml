@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<extension title="Circulation Kickstart" date="1081036663" developer="soulw4x" version="0.1.0" minCfVersion="2.9.0" maxCfVersion="2.9.0" isActive="false">
+
+	<hook id="CF_ADD_CIRCULATION">
+		<destination>ck_editcirculation.php</destination>
+		<param name="language" value="CF_LANGUAGE"></param>
+		<param name="circid" value="-1"></param>
+	</hook>
+	
+</extension>

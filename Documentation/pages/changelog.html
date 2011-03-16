@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Changelog</title>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+
+<body style="margin: 10px 10px 10px 10px">
+	<h1>Changelog</h1>
+	<h2>V.2.10.0 (<em>2007-10-17</em>)</h2>
+	<ul>
+		<li>E-Mail format can be changed globally - so if you want to change it for all users you don't have to edit every single user anymore</li>
+		<li>Remake of Step3 of the Document Templates (assigning fields to slots) with a new feature which enables you to sort the fields inside the slots</li>
+		<li>Another Hook, which allows you to add your own "end Actions"</li>
+		<li>Bugfix: deleted Users still appeared when creating a Mailinglist</li>
+		<li>improved performance through adding indexes to the database tables</li>
+	</ul>
+	<h2>V.2.9.1 (<em>2007-07-06</em>)</h2>
+	<ul>
+		<li>"Delete Circulation" as another optional Action after finishing a circulation successfully</li>
+		<li>In the Substitute List you are now able to define the Sender of the Circulation as a Substitute</li>
+		<li>Some improvements in the E-Mail Layout (I-Frame)</li>
+		<li>Some fixes in the installer/updater</li>
+	</ul>
+	<h2>V.2.9.0 (<em>2007-06-26</em>)</h2>
+	<ul>
+		<li>Pre-Definable Textblocks for the description field of a workflow</li>
+		<li>First version of a plug-in API. You can now create your own extensions for CuteFlow that can be hooked in the menu</li>
+		<li>Some fixes and improvements in the installer</li>
+	</ul>	
+	<h2>V.2.8.0 (<em>2007-05-29</em>)</h2>
+	<ul>
+		<li>User: New Columns "Username" and "Online state"</li>
+		<li>User: Possibility to sort the list</li>
+		<li>User: Added some new fields for more user details like Adress and telephone numbers</li>
+		<li>Mailing List: Live Filter for choosing the users. All User details can be entered.<br>E.g. "miller 105": In this case the "105" can be part of a phone number or maybe a house number.</li>
+		<li>Placeholder for "Additional Text"</li>
+		<li>Users are now able to edit Circulations directly in the Browser after they logged in.</li>
+		<li>New options for Circulation restart: Start at the latest station and use the latest values of the Circulation</li>
+		<li>Optionally you can use LDAP for Login</li>
+		<li>More than one substitute per user</li>
+		<li>Substitute Time: Added "minutes". For each user you can use an individual substitute time</li>
+		<li>Notifications can be send to "Online users" only</li>
+		<li>"Receivers" can log in - but are only able to edit their own circulations</li>
+		<li>Fixed Bug: Selected Checkboxes are empty after saving the next Slot</li>
+	</ul>
+	<h2>V.2.7.0 (<em>2007-05-03</em>)</h2>
+	<ul>
+		<li>URL encryption - with possibility to still allow unencrypted URLs from "old" circulations</li>
+		<li>Self-Delegation: Placeholder "Sender of the circulation" - if the circulation reaches this point it will be send to the sender</li>
+		<li>Notification: Admins are able to send a message to all users by one click</li>
+		<li>Radiobuttons, Checkboxes and Comboboxes aren't restricted to 6 fields any more! Feel free to add 20 fields and more for example</li>
+		<li>Improved performance and reliability of the filter</li>
+		<li>New Placeholder for Textfields inserted: "Circulation Name"</li>
+		<li>Fixing bugs: 1613824, 1702038, 1702048, 1620769</li>
+		<li>Fixed Bug: Advanced Filter has been closed after e.g. deleting an circulation</li>
+		<li>Fixed Bug: Choosing a Placeholder for a Textfield didn't work properly</li>
+		<li>Fixed Layout of E-Mails with Values only</li>
+		<li>Fixed some IE Layout problems</li>
+	</ul>
+	<h2>V.2.6.0 (<em>2006-09-15</em>)</h2>
+	<ul>
+		<li>New Columns in Circulation Overview: maillinglist, template, run-time</li>
+		<li>You are now able to choose which columns you want to see in the circulation overview and archive</li>
+		<li>New Feature: saving the filter settings</li>
+		<li>Fixing bugs: 1551816, 1546522, 1546521, 1551816</li>
+		<li>Updated languages (i.e. complete italian translation)</li>
+		<li>Fixed some smaller Bugs</li>
+	</ul>
+    <h2>V.2.5.0 (<em>2006-08-22</em>)</h2>
+	<ul>
+		<li>New Feature: Possibility to change receivers of a mailing list before sending</li>
+		<li>New Feature: Advanced filter options in the circulation overview</li>
+		<li>New Feature: Placeholders in Fields (e.g. send date, unique document id)</li>
+		<li>New Feature: Send circulation backward and foreward to any station</li>
+		<li>New Feature: Grab/Steal circulations: Sending circulation to a selectable substitute</li>		
+		<li>Refactoring the user interface to have a more modern look </li>		
+		<li>Fixed a lot of small bugs and tweak some features</li>
+	</ul>
+    <h2>V.2.0.0 (<em>2006-07-10</em>)</h2>
+	<ul>
+		<li>New Fieldtypes added: Large Text, Radiobuttons, Checkboxes, Combobox, File</li>
+		<li>Standardvalues in fields are considered now</li>
+		<li>New Feature: you can fill all fields before sending the circulation</li>
+		<li>New Feature: now it's possible to configure the standard sorting direction</li>
+		<li>New Feature: progress bar for each circulation</li>
+		<li>New Feature: Textfield for the standard description text</li>
+		<li>New Feature: assigning fields or users to slots is designed more user-friendly</li>
+        <li>Fixed Bug: after deleting an user his substitute entries remained in other user's settings</li>
+	</ul>
+    <h2>V.1.7.1 (<em>2006-05-15</em>)</h2>
+	<ul>
+		<li>Fixed Bug: wrong language in Email-Browserview</li>
+		<li>Fixed Bug: sorting by date only sorted by day</li>
+		<li>Fixed some smaller bugs</li>
+	</ul>
+    <h2>V.1.7.0 (<em>2006-05-11</em>)</h2>
+	<ul>
+		<li>Installer added</li>
+		<li>New Feature: Admins can now easily change the complete Cuteflow Configuration without editing the config file. <br>--> you just have to click on "settings"</li>
+		<li>New Feature: Period after which the circulation will be send to the substitute person can be changed to hours</li>
+		<li>New Feature: Editing or creating a new user: Cuteflow 1.7.0 provides an "advanced settings" option. <br>Until now you can choose the EMail format (plain-text, html)</li>
+        <li>Fixed Bug: the "Browserview Link" in EMails is now multilingual</li>
+		<li>Fixed Bug: restarting a circulation in the archive caused an active circulation which is still archived <br>--> now it's not possible to stop or restart an archived circulation, you have to move it to the "regular List" first</li>
+		<li>Fixed Bug: some debug messages removed</li>
+        <li>Fixed Bug: Layout differences between Mozilla and IE</li>
+		<li>Fixed Bug: trying to sort or search in the "circulation archive" forwarded to the "Circulations"-Page</li>
+	</ul>
+    <h2>V.1.5.3 (<em>2005-12-14</em>)</h2>
+	<ul>
+		<li>Some bugfixes in the japanese language</li>
+		<li>The input fields are now related to the revision of the circulation</li>
+		<li>There is a new db-dump file. The old one didn't worked any more</li>
+		<li>Fixed some smaller bugs</li>
+	</ul>
+	<h2>V.1.5.2 (<em>2005-12-07</em>)</h2>
+	<ul>
+		<li>New language: Polish</li>
+		<li>New language: Japanese</li>
+		<li>Some bugfixes in the italian language</li>
+		<li>You can now choose the language from the login page</li>
+		<li>If you open a e-mail with a deleted circulation there will be a warning</li>
+		<li>Fixed some bugs in the circulation view</li>
+		<li>Added a new configuration switch $FILTER_AUTO_REGEX_WORDSTART. If this is set to true the filter matches only words that starts with the filter</li>
+		<li>Fixed some smaller bugs</li>
+	</ul>
+	<h2>V.1.5.0 (<em>2005-07-05</em>)</h2>
+	<ul>
+		<li>Fixing bug: Filters doesn't work correctly</li>
+		<li>Fixing bug: Missing version number</li>
+		<li>If you filter the circulation the filter text is highlighted</li>
+		<li>The circulation detail is opened in a seperate window (optional, can be deactived through the config file)</li>
+		<li>Fixing bug: The amount of circulations was calculated wrong</li>
+		<li>The columns in the circaulation view are now freely configurable in the config.inc.php</li>
+		<li>The default sorting column of the circulation view could be changed the config.inc.php</li>
+		<li>Added spanish translation (thanks to Daniel for this contribution)</li>
+		<li>Improved filter handling</li>
+		<li>Fixing bug: Circulation stopped if a receiver was inserted more than one time in the same slot</li>
+		<li>Table sorting of the circulation sorts all circulation not only the visible ones</li>
+		<li>Showing the current stations of a circulation in the circulation e-mail (can be de-/activated in the config.inc.php</li>
+	</ul>
+	<h2>V.1.4.4 (<em>2005-04-04</em>)</h2>
+	<ul>
+		<li>Small bugfix release. No new features</li>
+	</ul>
+	<h2>V.1.4.3 (<em>2005-02-18</em>)</h2>
+	<ul>
+		<li>Numerous bugfixes</li>
+		<li>Update script for updating old 1.3.x installations</li>
+	</ul>
+	<h2>V.1.4.1 (<em>2004-10-11</em>)</h2>
+	<ul>
+
+		<li>Fixing bugs in edit-/create user mask</li>
+		<li>Fixing spelling bugs in german version</li>
+		<li>Fixing Javascitpt Errors that occured sometimes in circulation list-overview</li>
+		<li>Fixing Javascript Errors that occured when using a filter that results in an emtpy result</li>
+	</ul>
+	<h2>V.1.4.0 (<em>2004-09-20</em>)</h2>
+	<ul>
+		<li>Adding the possibility of resending a circalation completely</li>
+		<li>Adding a "history" where a circaulation attemps where saved (useful if you resend a circulation)</li>
+		<li>Adding the possibility to set a default value for the additional text (change the variable in config file)</li>
+		<li>Adding italian translation (provided by Nello Galiano from italy)</li>
+		<li>Don't show the additional informations if no slots are defined for a circulation</li>
+
+		<li>Notification of the sender if a receiver choose "reject"</li>
+		<li>Fixing bug with email authentification</li>
+		<li>Fixing bug with rejected circulation (the message was "successful" even if the circulation was rejected)</li>
+		<li>Fixing bugs with "session_start" error messages on different pages</li>
+		<li>Fixing bug with some debug messages on several pages</li>
+		<li>Fixing some other small bugs</li>
+
+		<li>Converting breaks of the addition text to &lt;br&gt; tags in the email</li>
+	</ul>
+	<h2>V.1.3.5 (<em>2004-06-30</em>)</h2>
+	<ul>
+		<li>Fixing some bug with language handling</li>
+		<li>Fixing bug with adding users to new mailing list</li>
+	</ul>
+	<h2>V.1.3.4 (<em>2004-05-07</em>)</h2>
+	<ul>
+		<li>New User-Right: Read-only</li>
+		<li>Fixing some minor bugs</li>
+	</ul>
+	<h2>V.1.3.3 (<em>2004-02-26</em>)</h2>
+	<ul>
+		<li>CuteFlow now works on servers with register-globals=Off</li>
+		<li>Fixing some german only texts</li>
+	</ul>
+	<h2>V.1.3.2 (<em>2004-02-24</em>)</h2>
+	<ul>
+		<li>Fixing english spellings (thanks to Montse Sagrera)</li>
+		<li>Bugfix: Sort order of circulation was wrong</li>
+		<li>Mails have now a sending date</li>
+		<li>Show circulation start date in circulation list</li>
+		<li>Don't show send button in message if user had already answered or circulation is stopped</li>
+		<li>Preserve multiple sending when user clicks more than one time to "Send" in the circulation mail</li>
+		<li>Optionally prevent a reply to the software by inserting a incorrect replay adress</li>
+	</ul>
+	<h2>V.1.3.1 (<em>2004-01-19</em>)</h2>
+	<ul>
+		<li>English translation</li>
+		<li>Bugfix: Sort order of inputs fields in e-mail was wrong</li>
+		<li>Bugfix: Sort order of circulation was wrong</li>
+		<li>Description will be shown in Circulation details</li>
+		<li>Some smaller bugfixes</li>
+		<li>First documentation</li>
+	</ul>
+	<h2>V.1.3.0</h2>
+	<ul>
+		<li>Creating document templates via webgui</li>
+		<li>Additional user warnings</li>
+		<li>First open Source version</li>
+	</ul>
+	<h2>V.1.2.0</h2>
+	<ul>
+		<li>Notification to sender if circulation was completed successfully</li>
+		<li>Automatic archiving of completed circulations (optional)</li>
+	</ul>
+	<h2>V.1.1.0</h2>
+	<ul>
+		<li>Ability to stop circulations</li>
+		<li>Archive for circulations</li>
+	</ul>
+</body>
+</html>

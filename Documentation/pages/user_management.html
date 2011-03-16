@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>User Management</title>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+
+<body style="margin: 10px 10px 10px 10px">
+	<h1>User Management</h1>
+	<h2>The user list</h2>
+	To manage your users, click on "Users" in the menu (left-side). After that you will see a list of all available
+	users (Sender and Receiver).
+	<br>
+	<img src="images/user_list.jpg">
+	<br><br>
+	There you can use the following actions:
+	<table>
+		<tr>
+			<td style="background-color:#F4f3f3;"><img src="images/adduser.png" height="22" width="18"></td>
+			<td style="background-color:#F4f3f3;">Adding a new user to the list</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3;"><img src="images/remove.png" height="16" width="16"></td>
+			<td style="background-color:#F4f3f3;">Deleting the selected user</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3;"><img src="images/edit.png" height="16" width="16"></td>
+			<td style="background-color:#F4f3f3;">Edit the user settings for the selected user</td>
+		</tr>
+	</table>
+	<br>
+	<h2>New user / Edit a user</h2>
+	If you add an user or clicked to edit an existing one you will get a page like the following one:<br>
+	<img src="images/user_edit.jpg">
+	<br>
+	<br>
+	The following data must be provided to describe a user:
+	<table>
+		<tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;" width="100">Firstname</td>
+			<td style="background-color:#F4f3f3;">The users firstname. This field is needed!</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">Lastname</td>
+			<td style="background-color:#F4f3f3;">The users firstname. This field is needed!</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">Accesslevel</td>
+			<td style="background-color:#F4f3f3;">If you check the box, the user is getting administration rights.
+						That means, he has access to the management interface and is allowed to send circulations
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">Password</td>
+			<td style="background-color:#F4f3f3;">A password for the management interface. Only needed if the user got administration rights.</td>
+		</tr>
+		<tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">Substitute</td>
+			<td style="background-color:#F4f3f3;">Here you can select a substitute receiver for the current user. Circulation messages will be sent to the substitute if the current user doesn't process the message in a configured time (see <a href="configuration.html" target="frame_details">Configuration</a>)</td>
+		</tr>
+                 <tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">E-Mail format</td>
+			<td style="background-color:#F4f3f3;">
+                         	The format for the E-Mails, either TEXT or HTML. Also you can change the Mail's content (browserlink, only values, IFrame)
+                                 "HTML and IFrame" is the default - it's the format you know from earlier Cuteflow Versions
+                         </td>
+		</tr>
+                 <tr>
+			<td style="background-color:#F4f3f3; font-weight:bold;">show adv. settings</td>
+			<td style="background-color:#F4f3f3;">
+                                You can fade in advanced settings like "E-Mail format".
+                         </td>
+		</tr>
+	</table>
+	<br>
+	In the next step you should setup some fields that can be used in Circulation messages. <a href="fields.html" target="frame_details">>> Fields</a>
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>

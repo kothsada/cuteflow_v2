@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="CuteFlow" default="packaging" basedir=".">
+	<property name="builddir" value="./build" override="true" />
+	
+	<target name="setup">
+		<echo msg="Making directory ./build" />
+        <mkdir dir="${builddir}" />
+        
+        <delete file="CuteFlow.zip" />
+	</target>
+	
+	<target name="clean">
+		<delete dir="${builddir}" />
+	</target>
+	
+	<target name="build" depends="setup">
+		<echo msg="Copy files to build directory" />
+		
+		<copy todir="${builddir}">
+			<fileset dir="." id="allfiles">
+				<exclude name="build.xml" />
+				<exclude name=".buildpath" />
+       <exclude name="${builddir}/" />
+				<exclude name=".project" />
+				<exclude name=".cache/" />
+				<exclude name=".settings/" />
+				<exclude name="**/.svn/" />
+				<exclude name="**/.DS_Store/" />
+				<exclude name="attachments/cf_*/" />
+				<exclude name="upload/**" />
+				<exclude name="config/db_config.inc.php" />
+				<exclude name="lib/RPL/Encryption/boxes.js" />
+			</fileset>
+		</copy>
+		<mkdir dir="${builddir}/upload" />
+		<copy file="upload/dummy.txt" tofile="${builddir}/upload/dummy.txt" />	
+	</target>
+	
+	<target name="packaging" depends="build">
+		<echo msg="Creating ZIP file" />
+		
+		<zip destfile="CuteFlow.zip" basedir="${builddir}">
+ 			<fileset dir="${builddir}">
+	 			<include name="**/**" />
+ 			</fileset>
+		</zip>		
+	</target>
+	
+</project>

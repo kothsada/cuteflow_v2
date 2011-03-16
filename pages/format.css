@@ -1,0 +1,188 @@
+table, td, tr
+{
+	font-family: arial;
+	font-size: 12px;
+}
+.table_header
+{
+	background-color: #8e8f90; 
+	color: #fff; 
+	font-size: 12px; 
+	font-weight: bold;
+}
+
+.counter
+{
+	text-align:center;
+	font-size: 11px;
+	height: 100%;
+}
+
+tr.rowEven
+{
+ background-color: #efefef;
+}
+
+tr.rowUneven
+{
+ background-color: #fff;
+} 
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin-left: 15px;
+}	
+
+img {
+    border: 0px;
+}
+
+a
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+		color: #000;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: #000;
+}
+
+.BorderRed
+{ border: 1px solid #8e8f90; }
+
+.BorderSilver
+{
+    border: 1px solid Silver;
+}
+
+
+.InputText
+{
+	font-size: 12px;
+	font-family: arial;
+	padding: 1px 2px 1px 2px;
+	border: 1px solid #B8B8B8;
+}
+
+.FormInput
+{
+	font-size: 12px;
+	font-family: arial;
+	padding: 0px;
+	border: 1px solid #B8B8B8;
+}
+
+.Button
+{
+	font-size: 12px;
+	font-family: arial;
+	background: #ccc;
+	border: 1px solid #aaa;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	color: #000;
+	padding: 0px 6px 0px 6px;
+}
+
+.Input
+{
+
+}
+
+div.flash {
+	margin-top: 8px;
+	padding: 4px 4px 4px 30px;
+    margin-bottom: 12px;
+	font-size: 1.1em;
+	border: 2px solid;
+}
+
+div.flash.error {
+    background: url(../images/exclamation.png) 8px 5px no-repeat;
+	background-color: #ffe3e3;
+	border-color: #dd0000;
+	color: #550000;
+}
+
+div.flash.notice {
+    background: url(../images/tick.png) 8px 5px no-repeat;
+	background-color: #dfffdf;
+	border-color: #9fcf9f;
+	color: #005f00;
+}
+
+div.flash.warning {
+  background: url(../images/icon_alert.gif) 8px 5px no-repeat;
+	background-color: #FFEBC1;
+	border-color: #FDBF3B;
+	color: #A6750C;
+  text-align: left;
+}
+
+.HeaderWhiteBig
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:12pt;
+	font-weight:bold;
+	color : #FFFFFF;
+}
+
+.HeaderWhite
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:10pt;
+	color : #FFFFFF;
+}
+
+.HeaderWhiteSmall
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:9pt;
+	color : #FFFFFF;
+}
+
+.note
+{
+	padding-left : 2px;
+	padding-top  : 2px;
+	border-width : 1px; 
+	border-color : #B0B0AF; 
+	border-style : solid;
+	background-color: #FCFBE9;
+	font-size: 8pt;
+}
+
+.saved
+{
+	padding: 3px;
+	width: 200px;
+	border-width : 1px; 
+	border-color : #B0B0AF; 
+	border-style : solid;
+	background-color: #FCFBE9;
+	font-size: 8pt;
+}
+
+.mandatory
+{
+	font-weight: bold;
+}
+
+.config_header
+{
+	color: #000;
+	background: #eee;
+	width: 200px;
+	border: 1px solid #c8c8c8;
+	height: 24px;
+}

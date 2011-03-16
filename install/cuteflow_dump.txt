@@ -1,0 +1,161 @@
+-- 
+-- Tabellenstruktur für Tabelle `cf_additional_text`
+-- 
+
+DROP TABLE IF EXISTS `cf_additional_text`;
+CREATE TABLE `cf_additional_text` (  `id` int(11) NOT NULL auto_increment,  `title` text NOT NULL,  `content` text NOT NULL,  `is_default` int(11) NOT NULL, PRIMARY KEY  (`id`)) ENGINE=MyISAM AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_attachment`
+-- 
+
+DROP TABLE IF EXISTS `cf_attachment`;
+CREATE TABLE `cf_attachment` (  `nID` int(11) NOT NULL auto_increment,  `strPath` text NOT NULL,  `nCirculationHistoryId` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`)) ENGINE=MyISAM AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_circulationform`
+-- 
+
+DROP TABLE IF EXISTS `cf_circulationform`;
+CREATE TABLE `cf_circulationform` (  `nID` int(11) NOT NULL auto_increment,  `nSenderId` int(11) NOT NULL default '0',  `strName` text NOT NULL,  `nMailingListId` int(11) NOT NULL default '0',  `bIsArchived` tinyint(4) NOT NULL default '0',  `nEndAction` tinyint(4) NOT NULL default '0',  `bDeleted` int(11) NOT NULL,  `bAnonymize` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_circulationhistory`
+-- 
+
+DROP TABLE IF EXISTS `cf_circulationhistory`;
+CREATE TABLE `cf_circulationhistory` (  `nID` int(11) NOT NULL auto_increment,  `nRevisionNumber` int(11) NOT NULL default '0',  `dateSending` int(15) NOT NULL default '0',  `strAdditionalText` text NOT NULL,  `nCirculationFormId` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_circulationprocess`
+-- 
+
+DROP TABLE IF EXISTS `cf_circulationprocess`;
+CREATE TABLE `cf_circulationprocess` (  `nID` int(11) NOT NULL auto_increment,  `nCirculationFormId` int(11) NOT NULL default '0',  `nSlotId` int(11) NOT NULL default '0',  `nUserId` int(11) NOT NULL default '0',  `dateInProcessSince` int(15) NOT NULL default '0',  `nDecissionState` tinyint(4) NOT NULL default '0',  `dateDecission` int(15) NOT NULL default '0',  `nIsSubstitiuteOf` int(11) NOT NULL default '0',  `nCirculationHistoryId` int(11) NOT NULL default '0',  `nResendCount` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`),  KEY `nCirculationFormId` (`nCirculationFormId`),  KEY `nSlotId` (`nSlotId`),  KEY `nUserId` (`nUserId`),  KEY `nCirculationHistoryId` (`nCirculationHistoryId`),  KEY `dateDecission` (`dateDecission`),  KEY `dateInProcessSince` (`dateInProcessSince`),  KEY `nDecissionState` (`nDecissionState`),  KEY `nIsSubstitiuteOf` (`nIsSubstitiuteOf`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_config`
+-- 
+
+DROP TABLE IF EXISTS `cf_config`;
+CREATE TABLE `cf_config` ( `strCF_Server` text NOT NULL, `strSMTP_use_auth` text NOT NULL, `strSMTP_server` text NOT NULL, `strSMTP_port` varchar(8) NOT NULL default '', `strSMTP_userid` text NOT NULL, `strSMTP_pwd` tinytext NOT NULL, `strSysReplyAddr` text NOT NULL, `strMailAddTextDef` text NOT NULL, `strDefLang` char(3) NOT NULL default 'en', `bDetailSeperateWindow` varchar(5) NOT NULL default 'true', `strDefSortCol` varchar(32) NOT NULL default 'COL_CIRCULATION_NAME', `bShowPosMail` varchar(5) NOT NULL default 'true', `bFilter_AR_Wordstart` varchar(5) NOT NULL default 'true', `strCirculation_cols` varchar(255) NOT NULL default '12345', `nDelay_norm` int(11) NOT NULL default '7', `nDelay_interm` int(11) NOT NULL default '10', `nDelay_late` int(11) NOT NULL default '12', `strEmail_Format` varchar(8) NOT NULL default 'HTML', `strEmail_Values` varchar(8) NOT NULL default 'IFRAME', `nSubstitutePerson_Hours` int(11) NOT NULL default '96', `strSubstitutePerson_Unit` text NOT NULL, `nConfigID` int(11) NOT NULL default '0', `strSortDirection` text NOT NULL, `strVersion` text NOT NULL, `nShowRows` int(11) default NULL, `nAutoReload` int(11) NOT NULL default '0', `strUrlPassword` text NOT NULL, `tsLastUpdate` int(11) NOT NULL, `bAllowUnencryptedRequest` int(11) NOT NULL, `UserDefined1_Title` text NOT NULL, `UserDefined2_Title` text NOT NULL, `strDateFormat` tinytext NOT NULL, `strMailSendType` text NOT NULL, `strMtaPath` text NOT NULL, `strSlotVisibility` varchar(100) NOT NULL, `strSmtpEncryption` varchar(100) NOT NULL, `bSendWorkflowMail` int(11) NOT NULL, `bSendReminderMail` int(11) NOT NULL, PRIMARY KEY  (`nConfigID`)) ENGINE=MyISAM;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_fieldvalue`
+-- 
+
+DROP TABLE IF EXISTS `cf_fieldvalue`;
+CREATE TABLE `cf_fieldvalue` (  `nID` int(11) NOT NULL auto_increment,  `nInputFieldId` int(11) NOT NULL default '0',  `strFieldValue` text NOT NULL,  `nSlotId` int(11) NOT NULL default '0',  `nFormId` int(11) NOT NULL default '0',  `nCirculationHistoryId` int(11) default NULL,  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`),  KEY `nInputFieldId` (`nInputFieldId`),  KEY `nSlotId` (`nSlotId`),  KEY `nFormId` (`nFormId`),  KEY `nCirculationHistoryId` (`nCirculationHistoryId`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_filter`
+-- 
+
+DROP TABLE IF EXISTS `cf_filter`;
+CREATE TABLE `cf_filter` (  `nID` int(11) NOT NULL auto_increment,  `nUserID` int(11) NOT NULL default '0', `strLabel` text NOT NULL,  `strName` text NOT NULL,  `nStationID` int(11) NOT NULL default '0',  `nDaysInProgress_Start` text NOT NULL,  `nDaysInProgress_End` text NOT NULL,  `strSendDate_Start` text NOT NULL,  `strSendDate_End` text NOT NULL,  `nMailinglistID` int(11) NOT NULL default '0',  `nTemplateID` int(11) NOT NULL default '0',  `strCustomFilter` text NOT NULL,  `nSenderID` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`)) ENGINE=MyISAM AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_formslot`
+-- 
+
+DROP TABLE IF EXISTS `cf_formslot`;
+CREATE TABLE `cf_formslot` ( `nID` int(11) NOT NULL auto_increment, `strName` tinytext NOT NULL, `nTemplateId` int(11) NOT NULL default '0', `nSlotNumber` int(11) NOT NULL default '0', `nSendType` int(11) NOT NULL default '0', PRIMARY KEY  (`nID`), UNIQUE KEY `nID` (`nID`), KEY `nID_2` (`nID`)) ENGINE=MyISAM AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_formtemplate`
+-- 
+
+DROP TABLE IF EXISTS `cf_formtemplate`;
+CREATE TABLE `cf_formtemplate` (  `nID` int(11) NOT NULL auto_increment,  `strName` tinytext NOT NULL,  `bDeleted` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_inputfield`
+-- 
+
+DROP TABLE IF EXISTS `cf_inputfield`;
+CREATE TABLE `cf_inputfield` ( `nID` int(11) NOT NULL auto_increment, `strName` tinytext NOT NULL,  `nType` int(11) NOT NULL default '0',  `strStandardValue` text NOT NULL, `bReadOnly` tinyint(4) NOT NULL default '0',  `strBgColor` tinytext NOT NULL,  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_mailinglist`
+-- 
+
+DROP TABLE IF EXISTS `cf_mailinglist`;
+CREATE TABLE `cf_mailinglist` (  `nID` int(11) NOT NULL auto_increment,  `strName` text NOT NULL,  `nTemplateId` int(11) NOT NULL default '0',  `bIsEdited` int(11) default NULL,  `bIsDefault` int(11) NOT NULL default '0',  `bDeleted` int(11) NOT NULL default '0',  PRIMARY KEY  (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_slottofield`
+-- 
+
+DROP TABLE IF EXISTS `cf_slottofield`;
+CREATE TABLE `cf_slottofield` (  `nID` int(11) NOT NULL auto_increment,  `nSlotId` int(11) NOT NULL default '0',  `nFieldId` int(11) NOT NULL default '0',  `nPosition` int(11) NOT NULL,  PRIMARY KEY  (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_slottouser`
+-- 
+
+DROP TABLE IF EXISTS `cf_slottouser`;
+CREATE TABLE `cf_slottouser` (  `nID` int(11) NOT NULL auto_increment,  `nSlotId` int(11) NOT NULL default '0',  `nMailingListId` int(11) NOT NULL default '0',  `nUserId` int(11) NOT NULL default '0',  `nPosition` tinyint(4) NOT NULL default '0',  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`),  KEY `nID_2` (`nID`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_substitute`
+-- 
+
+DROP TABLE IF EXISTS `cf_substitute`;
+CREATE TABLE `cf_substitute` (  `id` int(11) NOT NULL auto_increment,  `user_id` int(11) NOT NULL,  `substitute_id` int(11) NOT NULL,  `position` int(11) NOT NULL,  PRIMARY KEY  (`id`)) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_user`
+-- 
+
+DROP TABLE IF EXISTS `cf_user`;
+CREATE TABLE `cf_user` (  `nID` int(11) NOT NULL auto_increment,  `strLastName` tinytext NOT NULL,  `strFirstName` tinytext NOT NULL,  `strEMail` tinytext NOT NULL,  `nAccessLevel` int(11) NOT NULL default '0',  `strUserId` tinytext NOT NULL,  `strPassword` tinytext NOT NULL,  `strEmail_Format` varchar(8) NOT NULL default 'HTML',  `strEmail_Values` varchar(8) NOT NULL default 'IFRAME',  `nSubstitudeId` int(11) NOT NULL default '0',  `tsLastAction` int(11) NOT NULL,  `bDeleted` int(11) NOT NULL,  `strStreet` text NOT NULL,  `strCountry` text NOT NULL,  `strZipcode` text NOT NULL,  `strCity` text NOT NULL,  `strPhone_Main1` text NOT NULL,  `strPhone_Main2` text NOT NULL,  `strPhone_Mobile` text NOT NULL,  `strFax` text NOT NULL,  `strOrganisation` text NOT NULL,  `strDepartment` text NOT NULL,  `strCostCenter` text NOT NULL,  `UserDefined1_Value` text NOT NULL,  `UserDefined2_Value` text NOT NULL,  `nSubstituteTimeValue` int(11) NOT NULL,  `strSubstituteTimeUnit` text NOT NULL,  `bUseGeneralSubstituteConfig` int(11) NOT NULL,  `bUseGeneralEmailConfig` int(11) NOT NULL,  PRIMARY KEY  (`nID`),  UNIQUE KEY `nID` (`nID`)) ENGINE=MyISAM AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `cf_user_index`
+-- 
+
+DROP TABLE IF EXISTS `cf_user_index`;
+CREATE TABLE `cf_user_index` (  `user_id` int(11) NOT NULL,  `index` text NOT NULL,  UNIQUE KEY `user_id` (`user_id`)) ENGINE=MyISAM ;
+
+-- 
+-- Daten für Tabelle `cf_user`
+-- 
+INSERT INTO `cf_user` VALUES (1, 'None', 'Administrator', 'default@default.de', 2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 0, 1);
+
+-- 
+-- Daten für Tabelle `cf_config`
+-- 
+
+INSERT INTO `cf_config` VALUES ('', '', '', '', '', '', 'cuteflow@localhost.de', '', '', 'true', 'COL_CIRCULATION_PROCESS_DAYS', 'true', 'true', 'NAME---1---STATION---1---DAYS---1---START---1---SENDER---1---WHOLETIME---0---MAILLIST---0---TEMPLATE---0', 7, 10, 12, 'HTML', 'IFRAME', 1, 'DAYS', 1, 'ASC', '', 50, 60, '', 0, 0, '', '', 'm-d-Y', 'SMTP', '', 'ALL', 'NONE', 1, 0);

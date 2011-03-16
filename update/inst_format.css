@@ -1,0 +1,253 @@
+table, td, tr
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin-left: 15px;
+}	
+
+a
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.BorderRed
+{ border: 1px solid Red; }
+
+.BorderSilver
+{
+    border: 1px solid Silver;
+}
+
+
+.FormInput
+{
+	font-family: Arial;
+height: 18px;
+font-size: 15px;
+	border: 1px solid #B8B8B8;
+}
+
+.HeaderWhiteBig
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:12pt;
+	font-weight:bold;
+	color : #FFFFFF;
+}
+
+.HeaderWhite
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:10pt;
+	color : #FFFFFF;
+}
+
+.HeaderWhiteSmall
+{
+	font-family:Verdana,Arial,Helvetica;
+	font-size:9pt;
+	color : #FFFFFF;
+}
+
+.note
+{
+	padding-left : 2px;
+	padding-top  : 2px;
+	border-width : 1px; 
+	border-color : #B0B0AF; 
+	border-style : solid;
+	background-color: #FCFBE9;
+	font-size: 8pt;
+}
+
+.mandatory
+{
+	font-weight: bold;
+}
+
+.error
+{
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.border_content
+{
+	position: relative;
+	width: 750px;
+	height: 600px;
+	border: 1px solid #999999;
+}
+.Button
+{
+	font-size: 8pt;
+	border: 1px solid #C10000;
+	color: Black;
+	padding: 2px 2px 2px 2px;
+}
+.button_next
+{
+	font-weight: bold;
+	border: 2px outset #880000;
+	color: white;
+	background: #880000 url("../images/forward.png") right no-repeat;
+	padding: 1px 14px 1px 3px;
+	margin: 11px 0 0 0;
+}
+.button_prev
+{
+	font-weight: bold;
+	border: 2px outset #880000;
+	color: white;
+	background: #880000 url("../images/back.png") left no-repeat;
+	padding: 1px 3px 1px 14px;
+	margin: 11px 0 0 0;
+}
+
+.top
+{
+	position: relative;
+	font-weight: bold;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: #880000;
+	height: 70px;
+	color: #FFFFFF;
+	
+}
+.top_left
+{
+	position: absolute;
+	padding: 7px 0 0 7px;
+	font-size: 18px;
+	top: 0px;
+	left: 0px;
+	float: left;
+}
+.top_right
+{
+	position: absolute;
+	padding: 9px 7px 0 0;
+	top: 0px;
+	right: 0px;
+	float: right;
+}
+.bottom_left
+{
+	position: absolute;
+	font-weight: bold;
+	bottom: 0px;
+	left: 0px;
+	float: left;
+	background: #BBBBBB;
+	width: 250px;
+	height: 45px;
+	border-right: 1px solid #666666;
+	border-top: 1px solid #666666;
+}
+.bottom_right
+{
+	position: absolute;
+	font-weight: bold;
+	bottom: 0px;
+	right: 0px;
+	float: right;
+	background: #BBBBBB;
+	width: 250px;
+	height: 45px;
+	border-left: 1px solid #666666;
+	border-top: 1px solid #666666;
+}
+.content_border
+{
+	text-align: left;
+	position: relative;
+	padding: 20px 5px 15px 5px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	
+}
+.content
+{
+	text-align: left;
+	position: relative;
+	margin: 8px 0 2px 0;
+	padding: 8px 4px 10px 4px;
+	height: 360px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	border: 1px dashed #666666;
+	background: #FCFBE9;
+}
+.content#a
+{
+	text-align: justify;
+}
+.step
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: #BBBBBB;
+	height: 26px;
+	font-size: 11px;
+	border-bottom: 1px solid #666666;
+	text-align: left;
+	padding: 2px 2px 1px 2px;
+}
+.underline
+{
+	text-decoration: underline;
+}
+.small
+{
+	font-size: 11px;
+}
+.check
+{
+	height: 25px;
+	padding: 0 30px 0 10px;
+	text-align: left;
+	font-size: 12px;
+}
+.check_error
+{
+	position: absolute;
+	left: 320px;
+	padding: 2px 0px 2px 20px;
+	font-size: 12px;
+	background: url("../images/stop.png") left no-repeat;
+}
+.check_ok
+{
+	position: absolute;
+	left: 320px;
+	padding: 2px 0px 2px 20px;
+	font-size: 12px;
+	background: url("../images/ok.png") left no-repeat;
+}
+.table_header
+{
+	background-color: #A0A0A0; 
+	color: White; 
+	font-size: 8pt; 
+	font-weight: bold;"			
+}

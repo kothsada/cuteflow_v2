@@ -1,0 +1,37 @@
+<?xml version='1.0' ?>
+<extension title="Mixed Menus" date="1181036463" developer="soulw4x" version="0.1.8" minCfVersion="2.8.0" maxCfVersion="2.9.0" isActive="false">
+
+	<hook id="CF_MENU">
+		<group>CF_GROUP_CIRCULATIONS</group>
+		<title>Another Menu</title>
+		<requiredAccesslevel>15</requiredAccesslevel>
+		<destination>test1.php</destination>
+		<icon>images/test1.gif</icon>
+		<param name="bestParam1" value="foo1"></param>
+		<param name="secondBestParam1" value="bar1"></param>
+		<param name="thirdBestParam1" value="moep1"></param>
+	</hook>
+	
+	<hook id="CF_MENU">
+		<group>CF_GROUP_CIRCULATIONS</group>
+		<title>CircuLux</title>
+		<requiredAccesslevel>2</requiredAccesslevel>
+		<destination>test2.php</destination>
+		<icon>images/test2.gif</icon>
+		<param name="bestParam2" value="foo2"></param>
+		<param name="secondBestParam2" value="bar2"></param>
+		<param name="thirdBestParam2" value="moep2"></param>
+	</hook>
+	
+	<hook id="CF_MENU">
+		<group>CF_GROUP_MANAGEMENT</group>
+		<title>Manager 3000</title>
+		<requiredAccesslevel>10</requiredAccesslevel>
+		<destination>test3.php</destination>
+		<icon>images/test3.gif</icon>
+		<param name="bestParam3" value="foo3"></param>
+		<param name="secondBestParam3" value="bar3"></param>
+		<param name="thirdBestParam3" value="moep3"></param>
+	</hook>
+	
+</extension>

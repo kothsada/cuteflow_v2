@@ -1,0 +1,33 @@
+<?xml version='1.0' ?>
+<extension title="Extended Administration" date="1181036663" developer="soulw4x" version="0.1.5" minCfVersion="2.8.0" maxCfVersion="2.9.0" isActive="false">
+
+	<hook id="CF_MENU">
+		<group>CF_GROUP_ADMINISTRATION</group>
+		<title>Admin DeluXe</title>
+		<requiredAccesslevel>2</requiredAccesslevel>
+		<destination>test.php</destination>
+		<icon>test.png</icon>
+		<param name="my_language" value="CF_LANGUAGE"></param>
+		<param name="standardSelection" value="DEFAULTvalue"></param>
+	</hook>
+	
+	<hook id="CF_MENU">
+		<group>CF_GROUP_ADMINISTRATION</group>
+		<title>Admin Ultra</title>
+		<requiredAccesslevel>2</requiredAccesslevel>
+		<destination>test2.php</destination>
+		<icon>test2.png</icon>
+		<param name="param3000" value="3000"></param>
+	</hook>
+	
+	<hook id="CF_MENU">
+		<group>MENU 2000</group>
+		<title>Andere Extension</title>
+		<requiredAccesslevel>2</requiredAccesslevel>
+		<destination>test.php</destination>
+		<icon>test.png</icon>
+		<param name="lang" value="CF_LANGUAGE"></param>
+		<param name="standardSelection2" value="DEFAULTvalue2"></param>
+	</hook>
+	
+</extension>

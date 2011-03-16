@@ -1,0 +1,12 @@
+<?xml version='1.0' ?>
+<extension title="Auto Restart" date="1191225600" developer="soulw4x" version="0.1.0" minCfVersion="2.9.1" maxCfVersion="2.9.3" isActive="false">
+
+	<hook id="CF_ENDACTION">
+		<param name="filename" value="ar_controller.php"></param>
+		<param name="checkboxTitle" value="Umlauf nach dem Durchlauf erneut starten?"></param>
+		<param name="checkboxName" value="successRestart"></param>
+		<param name="hookValue" value="8"></param>
+		<param name="position" value="1"></param>
+	</hook>
+
+</extension>

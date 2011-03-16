@@ -1,0 +1,48 @@
+/*************************************************************************************\
+|*                                                                                   *|
+|*                         How to - Update Cuteflow to v2.6.0                        *|
+|*                                                                                   *|
+\*************************************************************************************/
+
+
+This Update is for following Versions only:
+
+- Cuteflow 2.5.x
+
+And will update your current Version to Version 2.6.0
+
+
+
+/------------------------------------------------------------------------------------\
+|                                   Instructions                                     |
+\------------------------------------------------------------------------------------/
+
+
+ I) English
+II) German
+
+
+ ------------
+ I) English |
+ ------------
+
+1) To avoid an unexpected disaster: please backup your Database and Configuration Entries.
+
+2) Copy CuteFlow 2.6.0 in your current Cuteflow directory (overwrite existing files!!)
+
+3) Just execute "[YourCuteFlowDirectory]/update/update.php" and follow the instructions
+
+4) Start Cuteflow as usual 
+
+
+ ------------
+ II) German  |
+ ------------
+
+1) Für den Fall der Fälle: bitte Datenbank und Konfiguration sichern
+
+2) CuteFlow 2.6.0 in bestehendes Cuteflow Verzeichnis kopieren (vorhandene Dateien überschreiben!!)
+
+3) "[AktuellesCuteflowVerzeichnis]/update/update.php" ausführen und den Anweisungen folgen
+
+4) Cuteflow wie gewohnt starten

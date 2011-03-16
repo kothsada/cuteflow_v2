@@ -1,0 +1,8 @@
+.project
+^cache$
+^log$
+^temp$
+^attachments/*
+^upload/*
+nbproject
+web.config

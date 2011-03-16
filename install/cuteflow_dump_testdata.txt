@@ -1,0 +1,518 @@
+-- 
+-- Daten für Tabelle `cf_circulationform`
+-- 
+
+INSERT INTO `cf_circulationform` VALUES (10, 1, 'My First Circulation No1', 1, 0, 3, 0, 0);
+INSERT INTO `cf_circulationform` VALUES (11, 1, 'My First Circulation No2', 2, 0, 3, 0, 0);
+INSERT INTO `cf_circulationform` VALUES (12, 1, 'My First Circulation No333', 3, 0, 3, 0, 0);
+INSERT INTO `cf_circulationform` VALUES (13, 1, 'Checkbox Testing', 2, 1, 3, 0, 0);
+INSERT INTO `cf_circulationform` VALUES (14, 1, 'Product 200 Test No1', 4, 0, 3, 0, 0);
+
+-- 
+-- Daten für Tabelle `cf_circulationhistory`
+-- 
+
+INSERT INTO `cf_circulationhistory` VALUES (21, 3, 1180007140, '', 10);
+INSERT INTO `cf_circulationhistory` VALUES (11, 1, 1180003974, 'Send Date: 2007-05-24', 10);
+INSERT INTO `cf_circulationhistory` VALUES (20, 2, 1180007130, '', 10);
+INSERT INTO `cf_circulationhistory` VALUES (22, 4, 1180007206, '', 10);
+INSERT INTO `cf_circulationhistory` VALUES (23, 5, 1180009391, '', 10);
+INSERT INTO `cf_circulationhistory` VALUES (24, 1, 1180013225, '2007-05-24', 11);
+INSERT INTO `cf_circulationhistory` VALUES (25, 1, 1180013299, 'Test', 12);
+INSERT INTO `cf_circulationhistory` VALUES (26, 6, 1180013536, '', 10);
+INSERT INTO `cf_circulationhistory` VALUES (27, 1, 1180017037, '', 13);
+INSERT INTO `cf_circulationhistory` VALUES (28, 2, 1180018130, '', 13);
+INSERT INTO `cf_circulationhistory` VALUES (29, 3, 1180018277, '', 13);
+INSERT INTO `cf_circulationhistory` VALUES (30, 4, 1180018395, '', 13);
+INSERT INTO `cf_circulationhistory` VALUES (31, 5, 1180018556, '', 13);
+INSERT INTO `cf_circulationhistory` VALUES (32, 1, 1180076469, '', 14);
+
+-- 
+-- Daten für Tabelle `cf_circulationprocess`
+-- 
+
+INSERT INTO `cf_circulationprocess` VALUES (110, 10, 3, 25, 1180000130, 4, 1180000150, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (107, 10, 2, 27, 1179999980, 4, 1180000000, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (108, 10, 2, 2, 1180000030, 4, 1180000050, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (109, 10, 2, 1, 1180000080, 4, 1180000100, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (69, 10, 2, 1, 1180004063, 16, 0, 0, 11, 0);
+INSERT INTO `cf_circulationprocess` VALUES (68, 10, 2, 2, 1180004048, 1, 1180004063, 0, 11, 0);
+INSERT INTO `cf_circulationprocess` VALUES (67, 10, 2, 32, 1180004024, 1, 1180004048, 66, 11, 0);
+INSERT INTO `cf_circulationprocess` VALUES (66, 10, 2, 27, 1180003993, 8, 1180004024, 0, 11, 0);
+INSERT INTO `cf_circulationprocess` VALUES (65, 10, 2, 13, 1180003974, 1, 1180003993, 0, 11, 0);
+INSERT INTO `cf_circulationprocess` VALUES (111, 10, 3, 21, 1180007130, 16, 0, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (106, 10, 2, 13, 1179999930, 4, 1179999950, 0, 20, 0);
+INSERT INTO `cf_circulationprocess` VALUES (113, 10, 2, 27, 1179999990, 4, 1180000010, 0, 21, 0);
+INSERT INTO `cf_circulationprocess` VALUES (114, 10, 2, 2, 1180007140, 1, 1180007190, 0, 21, 0);
+INSERT INTO `cf_circulationprocess` VALUES (112, 10, 2, 13, 1179999940, 4, 1179999960, 0, 21, 0);
+INSERT INTO `cf_circulationprocess` VALUES (115, 10, 2, 1, 1180007190, 16, 0, 0, 21, 0);
+INSERT INTO `cf_circulationprocess` VALUES (116, 10, 2, 13, 1180000006, 4, 1180000026, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (117, 10, 2, 27, 1180000056, 4, 1180000076, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (118, 10, 2, 2, 1180000106, 4, 1180000126, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (119, 10, 2, 1, 1180000156, 4, 1180000176, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (120, 10, 3, 25, 1180000206, 4, 1180000226, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (121, 10, 3, 21, 1180000256, 4, 1180000276, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (122, 10, 4, 1, 1180000306, 4, 1180000326, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (123, 10, 4, 6, 1180000356, 4, 1180000376, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (124, 10, 4, 29, 1180007206, 16, 0, 0, 22, 0);
+INSERT INTO `cf_circulationprocess` VALUES (125, 10, 2, 13, 1180002191, 4, 1180002211, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (126, 10, 2, 27, 1180002241, 4, 1180002261, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (127, 10, 2, 2, 1180002291, 4, 1180002311, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (128, 10, 2, 1, 1180002341, 4, 1180002361, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (129, 10, 3, 25, 1180002391, 4, 1180002411, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (130, 10, 3, 21, 1180002441, 4, 1180002461, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (131, 10, 4, 1, 1180002491, 4, 1180002511, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (132, 10, 4, 6, 1180002541, 4, 1180002561, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (133, 10, 4, 29, 1180009391, 16, 0, 0, 23, 0);
+INSERT INTO `cf_circulationprocess` VALUES (134, 11, 2, 13, 1180013225, 4, 1180013179, 0, 24, 0);
+INSERT INTO `cf_circulationprocess` VALUES (135, 11, 2, 12, 1180013239, 4, 1180013241, 0, 24, 0);
+INSERT INTO `cf_circulationprocess` VALUES (136, 11, 2, -2, 1180013240, 4, 1180013242, 0, 24, 0);
+INSERT INTO `cf_circulationprocess` VALUES (137, 11, 3, 20, 1180013241, 0, 0, 0, 24, 0);
+INSERT INTO `cf_circulationprocess` VALUES (138, 12, 2, 13, 1180013299, 1, 1180013327, 0, 25, 0);
+INSERT INTO `cf_circulationprocess` VALUES (139, 12, 2, 12, 1180013327, 1, 1180013341, 0, 25, 0);
+INSERT INTO `cf_circulationprocess` VALUES (140, 12, 3, 20, 1180013341, 1, 1180016369, 0, 25, 0);
+INSERT INTO `cf_circulationprocess` VALUES (141, 10, 2, 13, 1180006336, 4, 1180006356, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (142, 10, 2, 27, 1180006386, 4, 1180006406, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (143, 10, 2, 2, 1180006436, 4, 1180006456, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (144, 10, 2, 1, 1180006486, 4, 1180006506, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (145, 10, 3, 25, 1180006536, 4, 1180006556, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (146, 10, 3, 21, 1180006586, 4, 1180006606, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (147, 10, 4, 1, 1180006636, 4, 1180006656, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (148, 10, 4, 6, 1180006686, 4, 1180006706, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (149, 10, 4, 29, 1180013536, 0, 0, 0, 26, 0);
+INSERT INTO `cf_circulationprocess` VALUES (150, 12, 3, 7, 1180016369, 0, 0, 0, 25, 0);
+INSERT INTO `cf_circulationprocess` VALUES (151, 13, 2, 13, 1180017037, 1, 1180017054, 0, 27, 0);
+INSERT INTO `cf_circulationprocess` VALUES (152, 13, 2, 12, 1180017054, 1, 1180017066, 0, 27, 0);
+INSERT INTO `cf_circulationprocess` VALUES (153, 13, 2, 1, 1180017066, 1, 1180017075, 0, 27, 0);
+INSERT INTO `cf_circulationprocess` VALUES (154, 13, 3, 20, 1180017075, 1, 1180017604, 0, 27, 0);
+INSERT INTO `cf_circulationprocess` VALUES (155, 13, 3, 7, 1180017604, 16, 0, 0, 27, 0);
+INSERT INTO `cf_circulationprocess` VALUES (156, 13, 2, 13, 1180018130, 4, 1180018084, 0, 28, 0);
+INSERT INTO `cf_circulationprocess` VALUES (157, 13, 2, 12, 1180018144, 4, 1180018146, 0, 28, 0);
+INSERT INTO `cf_circulationprocess` VALUES (158, 13, 2, -2, 1180018145, 1, 1180018151, 0, 28, 0);
+INSERT INTO `cf_circulationprocess` VALUES (159, 13, 3, 20, 1180018151, 1, 1180018167, 0, 28, 0);
+INSERT INTO `cf_circulationprocess` VALUES (160, 13, 3, 7, 1180018167, 16, 0, 0, 28, 0);
+INSERT INTO `cf_circulationprocess` VALUES (161, 13, 2, 13, 1180018277, 4, 1180018225, 0, 29, 0);
+INSERT INTO `cf_circulationprocess` VALUES (162, 13, 2, 12, 1180018285, 4, 1180018287, 0, 29, 0);
+INSERT INTO `cf_circulationprocess` VALUES (163, 13, 2, -2, 1180018286, 1, 1180018291, 0, 29, 0);
+INSERT INTO `cf_circulationprocess` VALUES (164, 13, 3, 20, 1180018291, 1, 1180018303, 0, 29, 0);
+INSERT INTO `cf_circulationprocess` VALUES (165, 13, 3, 7, 1180018303, 16, 0, 0, 29, 0);
+INSERT INTO `cf_circulationprocess` VALUES (166, 13, 2, 13, 1180018395, 4, 1180018345, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (167, 13, 2, 12, 1180018405, 4, 1180018407, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (168, 13, 2, -2, 1180018406, 1, 1180018412, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (169, 13, 3, 20, 1180018412, 1, 1180018425, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (170, 13, 3, 7, 1180018425, 1, 1180018435, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (171, 13, 3, 29, 1180018435, 1, 1180018444, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (172, 13, 4, 1, 1180018444, 1, 1180018464, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (173, 13, 5, 31, 1180018464, 1, 1180018472, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (174, 13, 5, 10, 1180018472, 1, 1180018480, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (175, 13, 5, 21, 1180018480, 1, 1180018522, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (176, 13, 5, 5, 1180018522, 2, 1180018537, 0, 30, 0);
+INSERT INTO `cf_circulationprocess` VALUES (177, 13, 2, 13, 1180011356, 4, 1180011376, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (178, 13, 2, 12, 1180011406, 4, 1180011426, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (179, 13, 2, 1, 1180011456, 4, 1180011476, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (180, 13, 3, 20, 1180011506, 4, 1180011526, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (181, 13, 3, 7, 1180011556, 4, 1180011576, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (182, 13, 3, 29, 1180011606, 4, 1180011626, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (183, 13, 4, 1, 1180011656, 4, 1180011676, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (184, 13, 5, 31, 1180011706, 4, 1180011726, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (185, 13, 5, 10, 1180011756, 4, 1180011776, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (186, 13, 5, 21, 1180011806, 4, 1180011826, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (188, 13, 5, 5, 1180018654, 1, 1180018669, 0, 31, 0);
+INSERT INTO `cf_circulationprocess` VALUES (189, 14, 6, 24, 1180076469, 1, 1180076528, 0, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (193, 14, 6, 13, 1180076737, 8, 1180076800, 0, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (195, 14, 6, 29, 1180077119, 1, 1180077152, 194, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (194, 14, 6, 27, 1180076800, 8, 1180077119, 193, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (196, 14, 6, 28, 1180077152, 1, 1180077165, 0, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (197, 14, 6, 27, 1180077165, 1, 1180077178, 0, 32, 0);
+INSERT INTO `cf_circulationprocess` VALUES (198, 14, 7, 30, 1180077178, 0, 0, 0, 32, 0);
+
+
+
+
+-- 
+-- Daten für Tabelle `cf_fieldvalue`
+-- 
+
+INSERT INTO `cf_fieldvalue` VALUES (369, 9, '', 4, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (370, 4, 'xx3xx2004-09-11', 5, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (365, 2, '0', 3, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (366, 8, '0---0---0---1---0---', 3, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (368, 7, '0---0---1---1---0---0---1---0---', 4, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (367, 9, '', 3, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (363, 2, '0', 2, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (364, 4, 'xx3xx2004-09-11', 2, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (362, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (361, 6, '0---0---1---0---', 2, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (360, 2, '0', 5, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (359, 1, 'default value', 5, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (358, 4, 'xx3xx2004-09-11', 5, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (357, 9, '', 4, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (144, 2, '', 5, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (143, 1, 'default value', 5, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (142, 4, 'xx3xx2004-09-11', 5, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (141, 9, '', 4, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (140, 7, '0---0---1---1---0---0---1---0---', 4, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (138, 8, '0---0---0---1---0---', 3, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (139, 9, '', 3, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (137, 2, '', 3, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (136, 4, 'xx3xx2004-09-22', 2, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (135, 2, '', 2, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (355, 9, '', 3, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (356, 7, '0---0---1---1---0---0---1---0---', 4, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (134, 5, 'ZwO', 2, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (133, 6, '0---1---0---0---', 2, 10, 11);
+INSERT INTO `cf_fieldvalue` VALUES (353, 2, '0', 3, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (354, 8, '0---0---0---1---0---', 3, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (352, 4, 'xx3xx2004-09-11', 2, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (351, 2, '0', 2, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (350, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (349, 6, '0---0---1---0---', 2, 10, 23);
+INSERT INTO `cf_fieldvalue` VALUES (348, 6, '0---0---0---1---', 2, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (347, 2, 'on', 2, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (346, 4, 'xx3xx2004-09-24', 2, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (345, 5, 'ZwO Drei', 2, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (344, 2, '', 3, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (342, 9, '', 3, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (343, 8, '0---0---0---1---0---', 3, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (341, 9, '', 4, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (340, 7, '0---0---1---1---0---0---1---0---', 4, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (339, 4, 'xx3xx2004-09-11', 5, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (338, 1, 'default value', 5, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (336, 2, '', 5, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (337, 2, '', 5, 10, 22);
+INSERT INTO `cf_fieldvalue` VALUES (335, 1, 'default value', 5, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (334, 4, 'xx3xx2004-09-11', 5, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (332, 7, '0---0---1---1---0---0---1---0---', 4, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (333, 9, '', 4, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (330, 9, '', 3, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (331, 8, '0---0---0---1---0---', 3, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (329, 2, '', 3, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (326, 5, 'ZwO Drei', 2, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (327, 4, 'xx3xx2004-09-24', 2, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (328, 2, 'on', 2, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (325, 6, '0---0---0---1---', 2, 10, 21);
+INSERT INTO `cf_fieldvalue` VALUES (324, 6, '0---1---0---0---', 2, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (323, 5, 'ZwO', 2, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (321, 4, 'xx3xx2004-09-22', 2, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (322, 2, '', 2, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (320, 2, '', 3, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (319, 9, '', 3, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (318, 8, '0---0---0---1---0---', 3, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (317, 7, '0---0---1---1---0---0---1---0---', 4, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (316, 9, '', 4, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (315, 4, 'xx3xx2004-09-11', 5, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (314, 1, 'default value', 5, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (313, 2, '', 5, 10, 20);
+INSERT INTO `cf_fieldvalue` VALUES (371, 1, 'default value', 5, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (372, 2, '0', 5, 11, 24);
+INSERT INTO `cf_fieldvalue` VALUES (373, 6, '0---0---1---0---', 2, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (374, 5, 'OnE11', 2, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (375, 2, '', 2, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (376, 4, 'xx3xx2004-01-11', 2, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (377, 2, 'on', 3, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (378, 8, '---5---Option No1---1---Option No2---0---Option No3---0---Option No4 (default)---0---Option No5---0', 3, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (379, 9, '---1---3_12_25---CuteFlow_bin_v250.ziprrrrr', 3, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (380, 7, '---8---Checkbox - No1---1---Checkbox - No2---0---Checkbox - No3 (default)---0---Checkbox - No4 (default)---0---Checkbox - No5---0---Checkbox - No6---0---Checkbox - No7 (default)---0---Checkbox - No8---0', 4, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (381, 9, '', 4, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (382, 4, 'xx3xx2004-09-01', 5, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (383, 1, 'default value one', 5, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (384, 2, '', 5, 12, 25);
+INSERT INTO `cf_fieldvalue` VALUES (385, 2, '0', 5, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (386, 1, 'default value', 5, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (387, 4, 'xx3xx2004-09-11', 5, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (388, 9, '', 4, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (389, 9, '', 3, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (390, 7, '0---0---1---1---0---0---1---0---', 4, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (391, 2, '0', 3, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (392, 8, '0---0---0---1---0---', 3, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (393, 4, 'xx3xx2004-09-11', 2, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (394, 2, '0', 2, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (395, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (396, 6, '0---0---1---0---', 2, 10, 26);
+INSERT INTO `cf_fieldvalue` VALUES (397, 6, '0---0---1---0---', 2, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (398, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (399, 2, '', 2, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (400, 4, 'xx3xx2004-09-11', 2, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (401, 2, 'on', 3, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (402, 8, '0---0---0---1---0---', 3, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (403, 9, '', 3, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (404, 7, '0---0---1---1---0---0---1---0---', 4, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (405, 9, '', 4, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (406, 4, 'xx3xx2004-09-11', 5, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (407, 1, 'default value', 5, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (408, 2, '', 5, 13, 27);
+INSERT INTO `cf_fieldvalue` VALUES (409, 6, '0---0---1---0---', 2, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (410, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (411, 2, '', 2, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (412, 4, 'xx3xx2004-09-11', 2, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (413, 2, '', 3, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (414, 8, '0---0---0---1---0---', 3, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (415, 9, '', 3, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (416, 7, '0---0---1---1---0---0---1---0---', 4, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (417, 9, '', 4, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (418, 4, 'xx3xx2004-09-11', 5, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (419, 1, 'default value', 5, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (420, 2, '', 5, 13, 28);
+INSERT INTO `cf_fieldvalue` VALUES (421, 6, '0---0---1---0---', 2, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (422, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (423, 2, '', 2, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (424, 4, 'xx3xx2004-09-11', 2, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (425, 2, '', 3, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (426, 8, '0---0---0---1---0---', 3, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (427, 9, '', 3, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (428, 7, '0---0---1---1---0---0---1---0---', 4, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (429, 9, '', 4, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (430, 4, 'xx3xx2004-09-11', 5, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (431, 1, 'default value', 5, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (432, 2, '', 5, 13, 29);
+INSERT INTO `cf_fieldvalue` VALUES (433, 6, '0---0---1---0---', 2, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (434, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (435, 2, 'on', 2, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (436, 4, 'xx3xx2004-09-11', 2, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (437, 2, '', 3, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (438, 8, '0---0---0---1---0---', 3, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (439, 9, '', 3, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (440, 7, '0---1---1---1---1---1---1---0---', 4, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (441, 9, '', 4, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (442, 4, 'xx3xx2004-09-11', 5, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (443, 1, 'default value', 5, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (444, 2, 'on', 5, 13, 30);
+INSERT INTO `cf_fieldvalue` VALUES (445, 6, '0---0---1---0---', 2, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (446, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 2, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (447, 2, 'on', 2, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (448, 4, 'xx3xx2004-09-11', 2, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (449, 2, '', 3, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (450, 8, '0---0---0---1---0---', 3, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (451, 9, '', 3, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (452, 7, '0---1---1---1---1---1---1---0---', 4, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (453, 9, '', 4, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (454, 4, 'xx3xx2004-09-11', 5, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (455, 1, 'default value', 5, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (456, 2, '', 5, 13, 31);
+INSERT INTO `cf_fieldvalue` VALUES (457, 8, '0---0---0---1---0---', 6, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (458, 7, '1---1---0---0---1---0---0---0---', 6, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (459, 2, 'on', 6, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (460, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (461, 1, 'default value', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (462, 6, '0---0---1---0---', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (463, 3, 'xx1xx1337', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (464, 9, '', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (465, 4, 'xx3xx2004-09-11', 7, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (466, 1, 'default value', 8, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (467, 2, '', 8, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (468, 6, '0---0---1---0---', 9, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (469, 1, 'default value', 9, 14, 32);
+INSERT INTO `cf_fieldvalue` VALUES (470, 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 9, 14, 32);
+
+-- 
+-- Daten für Tabelle `cf_filter`
+-- 
+
+
+-- 
+-- Daten für Tabelle `cf_formslot`
+-- 
+
+INSERT INTO `cf_formslot` VALUES (2, 'Slot No1', 3, 1, 0);
+INSERT INTO `cf_formslot` VALUES (3, 'Slot No2', 3, 2, 0);
+INSERT INTO `cf_formslot` VALUES (4, 'Slot No3', 3, 3, 0);
+INSERT INTO `cf_formslot` VALUES (5, 'Slot No4', 3, 4, 0);
+INSERT INTO `cf_formslot` VALUES (6, 'technology', 4, 1, 0);
+INSERT INTO `cf_formslot` VALUES (7, 'purchasing', 4, 2, 0);
+INSERT INTO `cf_formslot` VALUES (8, 'marketing', 4, 3, 0);
+INSERT INTO `cf_formslot` VALUES (9, 'accounting', 4, 4, 0);
+
+-- 
+-- Daten für Tabelle `cf_formtemplate`
+-- 
+
+INSERT INTO `cf_formtemplate` VALUES (4, 'Product 2000', 0);
+INSERT INTO `cf_formtemplate` VALUES (3, 'Template - Test No1', 0);
+
+-- 
+-- Daten für Tabelle `cf_inputfield`
+-- 
+
+INSERT INTO `cf_inputfield` VALUES (1, 'TESTFIELD - Text', 1, 'default value', 0, '');
+INSERT INTO `cf_inputfield` VALUES (2, 'TESTFIELD - Checkbox', 2, '0', 0, '');
+INSERT INTO `cf_inputfield` VALUES (3, 'TESTFIELD - Number', 3, 'xx1xx1337', 0, '');
+INSERT INTO `cf_inputfield` VALUES (4, 'TESTFIELD - Date', 4, 'xx3xx2004-09-11', 0,'');
+INSERT INTO `cf_inputfield` VALUES (5, 'TESTFIELD - Textfield', 5, 'nOnSeNs NoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnSnOnSeNsNoNsEnS nOnSeNs NoNsEnS nOnSeNs NoNsEnS', 0, '');
+INSERT INTO `cf_inputfield` VALUES (6, 'TESTFIELD - Radiogroup', 6, '---4---Radiobutton - No1---0---Radiobutton - No2---0---Radiobutton - No3 (default)---1---Radiobutton - No4---0', 0, '');
+INSERT INTO `cf_inputfield` VALUES (7, 'TESTFIELD - Checkboxgroup', 7, '---8---Checkbox - No1---0---Checkbox - No2---0---Checkbox - No3 (default)---1---Checkbox - No4 (default)---1---Checkbox - No5---0---Checkbox - No6---0---Checkbox - No7 (default)---1---Checkbox - No8---0', 0, '');
+INSERT INTO `cf_inputfield` VALUES (8, 'TESTFIELD - Combobox', 8, '---5---Option No1---0---Option No2---0---Option No3---0---Option No4 (default)---1---Option No5---0', 0, '');
+INSERT INTO `cf_inputfield` VALUES (9, 'TESTFIELD - File', 9, '', 0, '');
+
+-- 
+-- Daten für Tabelle `cf_mailinglist`
+-- 
+
+INSERT INTO `cf_mailinglist` VALUES (1, 'Mailinglist - Test No1', 3, 0, 0, 0);
+INSERT INTO `cf_mailinglist` VALUES (2, 'Mailinglist - Test No2', 3, 0, 0, 0);
+INSERT INTO `cf_mailinglist` VALUES (3, 'Mailinglist - Test No2', 3, 1, 0, 0);
+INSERT INTO `cf_mailinglist` VALUES (4, 'General Mailinglist 2000', 4, 0, 1, 0);
+
+-- 
+-- Daten für Tabelle `cf_slottofield`
+-- 
+
+INSERT INTO `cf_slottofield` VALUES (2, 2, 6, 0);
+INSERT INTO `cf_slottofield` VALUES (3, 2, 5, 0);
+INSERT INTO `cf_slottofield` VALUES (4, 2, 2, 0);
+INSERT INTO `cf_slottofield` VALUES (5, 2, 4, 0);
+INSERT INTO `cf_slottofield` VALUES (6, 3, 2, 0);
+INSERT INTO `cf_slottofield` VALUES (7, 3, 8, 0);
+INSERT INTO `cf_slottofield` VALUES (8, 3, 9, 0);
+INSERT INTO `cf_slottofield` VALUES (9, 4, 7, 0);
+INSERT INTO `cf_slottofield` VALUES (10, 4, 9, 0);
+INSERT INTO `cf_slottofield` VALUES (11, 5, 4, 0);
+INSERT INTO `cf_slottofield` VALUES (12, 5, 1, 0);
+INSERT INTO `cf_slottofield` VALUES (13, 5, 2, 0);
+INSERT INTO `cf_slottofield` VALUES (30, 6, 8, 0);
+INSERT INTO `cf_slottofield` VALUES (29, 6, 7, 0);
+INSERT INTO `cf_slottofield` VALUES (28, 6, 2, 0);
+INSERT INTO `cf_slottofield` VALUES (36, 7, 5, 0);
+INSERT INTO `cf_slottofield` VALUES (35, 7, 1, 0);
+INSERT INTO `cf_slottofield` VALUES (34, 7, 6, 0);
+INSERT INTO `cf_slottofield` VALUES (33, 7, 3, 0);
+INSERT INTO `cf_slottofield` VALUES (32, 7, 9, 0);
+INSERT INTO `cf_slottofield` VALUES (31, 7, 4, 0);
+INSERT INTO `cf_slottofield` VALUES (38, 8, 1, 0);
+INSERT INTO `cf_slottofield` VALUES (37, 8, 2, 0);
+INSERT INTO `cf_slottofield` VALUES (41, 9, 6, 0);
+INSERT INTO `cf_slottofield` VALUES (40, 9, 1, 0);
+INSERT INTO `cf_slottofield` VALUES (39, 9, 5, 0);
+
+-- 
+-- Daten für Tabelle `cf_slottouser`
+-- 
+
+INSERT INTO `cf_slottouser` VALUES (62, 4, 1, 29, 3);
+INSERT INTO `cf_slottouser` VALUES (57, 2, 1, -2, 4);
+INSERT INTO `cf_slottouser` VALUES (56, 2, 1, 2, 3);
+INSERT INTO `cf_slottouser` VALUES (55, 2, 1, 27, 2);
+INSERT INTO `cf_slottouser` VALUES (65, 2, 2, 13, 1);
+INSERT INTO `cf_slottouser` VALUES (59, 3, 1, 21, 2);
+INSERT INTO `cf_slottouser` VALUES (58, 3, 1, 25, 1);
+INSERT INTO `cf_slottouser` VALUES (61, 4, 1, 6, 2);
+INSERT INTO `cf_slottouser` VALUES (60, 4, 1, -2, 1);
+INSERT INTO `cf_slottouser` VALUES (54, 2, 1, 13, 1);
+INSERT INTO `cf_slottouser` VALUES (64, 5, 1, 17, 2);
+INSERT INTO `cf_slottouser` VALUES (63, 5, 1, 22, 1);
+INSERT INTO `cf_slottouser` VALUES (66, 2, 2, 12, 2);
+INSERT INTO `cf_slottouser` VALUES (67, 2, 2, -2, 3);
+INSERT INTO `cf_slottouser` VALUES (68, 3, 2, 20, 1);
+INSERT INTO `cf_slottouser` VALUES (69, 3, 2, 7, 2);
+INSERT INTO `cf_slottouser` VALUES (70, 3, 2, 29, 3);
+INSERT INTO `cf_slottouser` VALUES (71, 4, 2, -2, 1);
+INSERT INTO `cf_slottouser` VALUES (72, 5, 2, 31, 1);
+INSERT INTO `cf_slottouser` VALUES (73, 5, 2, 10, 2);
+INSERT INTO `cf_slottouser` VALUES (74, 5, 2, 21, 3);
+INSERT INTO `cf_slottouser` VALUES (75, 5, 2, 5, 4);
+INSERT INTO `cf_slottouser` VALUES (76, 2, 3, 13, 1);
+INSERT INTO `cf_slottouser` VALUES (77, 2, 3, 12, 2);
+INSERT INTO `cf_slottouser` VALUES (78, 3, 3, 20, 1);
+INSERT INTO `cf_slottouser` VALUES (79, 3, 3, 7, 2);
+INSERT INTO `cf_slottouser` VALUES (80, 4, 3, -2, 1);
+INSERT INTO `cf_slottouser` VALUES (81, 4, 3, 3, 2);
+INSERT INTO `cf_slottouser` VALUES (82, 5, 3, 31, 1);
+INSERT INTO `cf_slottouser` VALUES (83, 5, 3, 10, 2);
+INSERT INTO `cf_slottouser` VALUES (84, 6, 4, 24, 1);
+INSERT INTO `cf_slottouser` VALUES (85, 6, 4, 13, 2);
+INSERT INTO `cf_slottouser` VALUES (86, 6, 4, 28, 3);
+INSERT INTO `cf_slottouser` VALUES (87, 6, 4, 27, 4);
+INSERT INTO `cf_slottouser` VALUES (88, 7, 4, 30, 1);
+INSERT INTO `cf_slottouser` VALUES (89, 7, 4, 3, 2);
+INSERT INTO `cf_slottouser` VALUES (90, 8, 4, 4, 1);
+INSERT INTO `cf_slottouser` VALUES (91, 8, 4, 34, 2);
+INSERT INTO `cf_slottouser` VALUES (92, 9, 4, 21, 1);
+INSERT INTO `cf_slottouser` VALUES (93, 9, 4, 29, 2);
+INSERT INTO `cf_slottouser` VALUES (94, 9, 4, 5, 3);
+
+-- 
+-- Daten für Tabelle `cf_substitute`
+-- 
+
+INSERT INTO `cf_substitute` VALUES (66, 13, 22, 2);
+INSERT INTO `cf_substitute` VALUES (65, 13, 29, 1);
+INSERT INTO `cf_substitute` VALUES (64, 13, 27, 0);
+INSERT INTO `cf_substitute` VALUES (63, 27, 30, 1);
+INSERT INTO `cf_substitute` VALUES (62, 27, 3, 0);
+INSERT INTO `cf_substitute` VALUES (51, 25, 8, 0);
+INSERT INTO `cf_substitute` VALUES (55, 4, 2, 3);
+INSERT INTO `cf_substitute` VALUES (54, 4, 8, 2);
+INSERT INTO `cf_substitute` VALUES (53, 4, 7, 1);
+INSERT INTO `cf_substitute` VALUES (52, 4, 10, 0);
+INSERT INTO `cf_substitute` VALUES (56, 19, 1, 0);
+INSERT INTO `cf_substitute` VALUES (68, 1, 5, 1);
+INSERT INTO `cf_substitute` VALUES (67, 1, 28, 0);
+
+-- 
+-- Daten für Tabelle `cf_user`
+-- 
+
+INSERT INTO `cf_user` VALUES (2, 'Habercore', 'Timo', 'default@default.de', 2, 'thabercore', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1178715596, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (12, 'Brew', 'Steven', 'default@default.de', 1, 'sbrew', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '07135 - 103255', '07135-8794515', '0170/5598798', '', '', '', '', 'test 1-2-3', 'test-test', 5, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (13, 'Cash', 'Friedel', 'default@default.de', 2, 'fcash', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 0, 0, 'Livingstreet 88', 'Germany', '74074', 'HeilbronX', '07131 5555584', '', '0162 444777888', '07131 - 22010987', 'none', 'nothing', 'test value 2000', 'empty', 'empty2', 1, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (31, 'Kevlar', 'Jennifer', 'default@default.de', 2, 'jkevlar', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (17, 'Sturner', 'Tina', 'default@default.de', 4, 'tsturner', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (18, 'Lay', 'Marcus', 'default@default.de', 4, 'mlay', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (19, 'Munich', 'Claudia', 'default@default.de', 1, 'cmunich', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 0, 0, '', 'France', '40048', 'ilElle', '08009 852741', '08009 337944', '', '', '', '', '', '', '', 1, 'HOURS', 1, 1);
+INSERT INTO `cf_user` VALUES (20, 'Focker', 'Jonathan', 'default@default.de', 1, 'jfocker', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1180016376, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (21, 'Schlemmer', 'Horst', 'default@default.de', 8, 'hschlemmer', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1179989496, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (22, 'Summer', 'Ursula', 'default@default.de', 4, 'usummer', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (23, 'Fighthint', 'Ulu', 'default@default.de', 1, 'ufighthint', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 5500, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (24, 'Beck', 'Steven', 'default@default.de', 8, 'sbeck', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1179835725, 0, 'Forest 135', 'Germany', '20048', 'Goblinhausen', '03114 500407', '', '', '', '', '', '', 'foo is more senseless than bar', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (25, 'Free', 'Warner', 'default@default.de', 1, 'wfree', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 0, 0, 'Ringstr. 16', 'Germany', '74248', 'Ellhofen', '07134/ 6616', '07134/ 458798', '0176 - 5594879504', '07134-661605', 'Fabrik', 'Technik', 'Technik', 'sinnfrei', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (26, 'Meastro', 'George', 'default@default.de', 1, 'gmeastro', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (27, 'Davinci', 'Anabela', 'default@default.de', 1, 'adavinci', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 0, 0, 'Cruzingway 4', 'France', '887799', 'Paris', '01234/ 123456', '01234/ 987654', '', '', '', '', '', '', '', 1, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (28, 'Cook', 'Joseph', 'default@default.de', 1, 'jcook', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (29, 'Schulz', 'Jeffry', 'default@default.de', 1, 'jschulz', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (30, 'Ghost', 'Andrew', 'default@default.de', 1, 'aghost', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (32, 'Edwinson', 'Beatrix', 'default@default.de', 4, 'bedwinson', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (34, 'Miller', 'Marc', 'default@default.de', 4, 'mmiller', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1179836745, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (16, 'Woodwait', 'Jürgen', 'default@default.de', 1, 'jwoodwait', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (5, 'Sindecade', 'Marc', 'default@default.de', 1, 'msindecade', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (11, 'Minz', 'Margreta', 'default@default.de', 4, 'mminz', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (3, 'Haaik', 'Volkman', 'default@default.de', 4, 'vhaaik', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', 'blub', '', '', 'hui', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (4, 'Link', 'Thomas', 'default@default.de', 4, 'tlink', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 0, 0, 'Witzelweg 46', 'Austria', '111222', 'Wien', '07133 54046', '', '', '', '', '', '', '', '', 20, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (6, 'Freeliving', 'Anna', 'default@default.de', 2, 'afreeliving', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 1178722412, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'MINUTES', 1, 1);
+INSERT INTO `cf_user` VALUES (7, 'Rich', 'Martin', 'default@default.de', 2, 'mrich', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 90, 'HOURS', 1, 1);
+INSERT INTO `cf_user` VALUES (8, 'Cherry', 'Tom', 'default@default.de', 2, 'tcherry', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, 'Street Of London 85', 'England', '77777', 'City', '0544 4445444', '', '', '', 'xyz', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (10, 'Prinsk', 'Frank', 'default@default.de', 4, 'fprinsk', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', 0, 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 1, 'DAYS', 1, 1);
+INSERT INTO `cf_user` VALUES (1, 'None', 'Administrator', 'default@default.de', 2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'HTML', 'IFRAME', -2, 1180081804, 0, 'Testway 69', 'D', '77777', 'City', '07131 2082803', '', '0176 22664986', '', 'Mein Büro 23444', 'abtei', 'koste', '', '', 4, 'HOURS', 0, 1);
+
+-- 
+-- Daten für Tabelle `cf_user_index`
+-- 
+
+INSERT INTO `cf_user_index` VALUES (2, 'Habercore Timo default@default.de thabercore             ');
+INSERT INTO `cf_user_index` VALUES (12, 'Brew Steven default@default.de sbrew     07135 - 103255 07135-8794515 0170/5598798     test 1-2-3 test-test');
+INSERT INTO `cf_user_index` VALUES (13, 'Bert Heinz default@default.de hbert Livingstreet 88 Germany 74074 HeilbronX 07131 5555584  0162 444777888 07131 - 22010987 none nothing test value 2000 empty empty2');
+INSERT INTO `cf_user_index` VALUES (17, 'Sturner Tina default@default.de tsturner             ');
+INSERT INTO `cf_user_index` VALUES (18, 'Lay Marcus default@default.de mlay             ');
+INSERT INTO `cf_user_index` VALUES (19, 'Munich Claudia default@default.de cmunich  France 40048 ilElle 08009 852741 08009 337944       ');
+INSERT INTO `cf_user_index` VALUES (20, 'Focker Jonathan default@default.de jfocker             ');
+INSERT INTO `cf_user_index` VALUES (21, 'Schlemmer Horst default@default.de hschlemmer             ');
+INSERT INTO `cf_user_index` VALUES (22, 'Summer Ursula default@default.de usummer             ');
+INSERT INTO `cf_user_index` VALUES (23, 'Fighthint Ulu default@default.de ufighthint             ');
+INSERT INTO `cf_user_index` VALUES (24, 'Beck Steven default@default.de sbeck Forest 135 Germany 20048 Goblinhausen 03114 500407       foo is more senseless than bar ');
+INSERT INTO `cf_user_index` VALUES (25, 'Free Warner default@default.de wfree Ringstr. 16 Germany 74248 Ellhofen 07134/ 6616 07134/ 458798 0176 - 5594879504 07134-661605 Fabrik Technik Technik sinnfrei ');
+INSERT INTO `cf_user_index` VALUES (26, 'Meastro George default@default.de gmeastro             ');
+INSERT INTO `cf_user_index` VALUES (27, 'Davinci Anabela default@default.de adavinci Cruzingway 4 France 887799 Paris 01234/ 123456 01234/ 987654       ');
+INSERT INTO `cf_user_index` VALUES (28, 'Cook Joseph default@default.de jcook             ');
+INSERT INTO `cf_user_index` VALUES (29, 'Schulz Jeffry default@default.de jschulz             ');
+INSERT INTO `cf_user_index` VALUES (30, 'Ghost Andrew default@default.de aghost             ');
+INSERT INTO `cf_user_index` VALUES (31, 'Kevlar Jennifer default@default.de jkevlar             ');
+INSERT INTO `cf_user_index` VALUES (32, 'Edwinson Beatrix default@default.de bedwinson             ');
+INSERT INTO `cf_user_index` VALUES (34, 'Miller Marc default@default.de mmiller             ');
+INSERT INTO `cf_user_index` VALUES (16, 'Woodwait Jürgen default@default.de jwoodwait             ');
+INSERT INTO `cf_user_index` VALUES (11, 'Minz Margreta default@default.de mminz             ');
+INSERT INTO `cf_user_index` VALUES (3, 'Haaik Volkman default@default.de vhaaik         blub   hui ');
+INSERT INTO `cf_user_index` VALUES (4, 'Link Thomas default@default.de tlink Witzelweg 46 Austria 111222 Wien 07133 54046        ');
+INSERT INTO `cf_user_index` VALUES (5, 'Sindecade Marc default@default.de msindecade             ');
+INSERT INTO `cf_user_index` VALUES (6, 'Freeliving Anna default@default.de afreeliving             ');
+INSERT INTO `cf_user_index` VALUES (7, 'Rich Martin default@default.de mrich             ');
+INSERT INTO `cf_user_index` VALUES (8, 'Cherry Tom default@default.de tcherry Street Of London 85 England 77777 City 0544 4445444    xyz    ');
+INSERT INTO `cf_user_index` VALUES (10, 'Prinsk Frank default@default.de fprinsk             ');
+INSERT INTO `cf_user_index` VALUES (1, 'None Administrator default@default.de admin           ');

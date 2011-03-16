@@ -1,0 +1,17 @@
+; <?php exit; ?> 
+
+auth_method = "DB"
+ldap_host = ""
+ldap_domain = ""
+ldap_binddn = ""
+ldap_bindpwd = ""
+ldap_rootdn = ""
+ldap_searchattr = "samaccountname"
+ldap_fname = "givenname"
+ldap_lname = "sn"
+ldap_uname = "samaccountname"
+ldap_email_add = "mail"
+ldap_office = "physicaldeliveryofficename"
+ldap_phone = "telephonenumber"
+ldap_context = "dn"
+default_level = "4"
